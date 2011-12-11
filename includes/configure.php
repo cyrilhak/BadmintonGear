@@ -1,6 +1,6 @@
 <?php
-  define('HTTP_SERVER', 'http://10.131.6.58');
-  define('HTTPS_SERVER', 'http://10.131.6.58');
+  define('HTTP_SERVER', 'http://192.168.0.100');
+  define('HTTPS_SERVER', 'http://192.168.0.100');
   define('ENABLE_SSL', false);
   define('HTTP_COOKIE_DOMAIN', '');
   define('HTTPS_COOKIE_DOMAIN', '');
@@ -18,11 +18,11 @@
   define('DIR_WS_LANGUAGES', DIR_WS_INCLUDES . 'languages/');
 
   define('DIR_WS_DOWNLOAD_PUBLIC', 'pub/');
-  define('DIR_FS_CATALOG', '/home/php/public_html/catalog/');
+  define('DIR_FS_CATALOG', '/home/badmintongear/public_html/catalog/');
   define('DIR_FS_DOWNLOAD', DIR_FS_CATALOG . 'download/');
   define('DIR_FS_DOWNLOAD_PUBLIC', DIR_FS_CATALOG . 'pub/');
 
-  define('DB_SERVER', '10.131.6.58');
+  define('DB_SERVER', '192.168.0.100');
   define('DB_SERVER_USERNAME', 'shinyredapples');
   define('DB_SERVER_PASSWORD', 'securepassword');
   define('DB_DATABASE', 'oscommerce');

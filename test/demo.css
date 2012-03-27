@@ -1,0 +1,68 @@
+.clear{
+	clear:both;
+}
+
+#main{
+	width:100%;
+	margin:0 auto;
+}
+
+
+
+.container,.titles{
+	color:black;
+	margin-top:0px;
+	width:480px;
+	overflow:hidden;
+	
+	/*background:url(img/bg_dark.png) #28313b;*/
+	padding:20px 10px 10px;
+	
+}
+
+.product{
+	width:435px;
+	height:140px;
+	/*background:url(img/product_bg.png) repeat-x;*/
+	padding-top:0px;	
+	float:left;
+}
+
+.product .pic{
+	float:left;
+	width:140px;
+	height:138px;
+	padding:0 0px 5px;
+	
+}
+
+.product .link,.product .price{
+	font-size:10px;	
+	padding:4px 0;
+}
+
+.product .price{
+	margin-top: 5px;
+	font-size: 13px;
+}
+
+.product .title{
+	margin-bottom: 5px;
+	font-size:13px;
+	font-weight:bold;	
+}
+
+.product a, .product a:visited {
+	color:#00BBFF;
+	text-decoration:none;
+	outline:none;
+}
+
+.product a:hover{
+	text-decoration:underline;
+}
+
+.tutorial-info{
+	text-align:center;
+	padding:10px;
+}

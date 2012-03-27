@@ -1,0 +1,273 @@
+<!-- Alfa .43 -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" lang="nl">
+    <head>
+        <title>Home&nbsp;-&nbsp;BadmintonGear.nl</title>
+        <link rel="stylesheet" type="text/css" href="Global.css" />
+        <link rel="stylesheet" type="text/css" href="jquery-ui-1.8.9.custom.css" />			
+        <link rel="stylesheet" type="text/css" href="demo.css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="author" content="Cyril" />
+        <meta name="Description" content="Uw specialist op badmintongebied" />
+        <meta name="keywords" content="" />   
+        <meta name="Classification" content="U" />
+        <meta name="revisit-after" content="3 days" />
+        <meta name="robots" content="index, follow" />
+        <meta property="fb:admins" content="BadmintonGear.nl" />
+        <link rel="stylesheet" href="Kameleon.css" type="text/css" />
+    </head>
+    <body>
+        <div id="Main">
+            <div id="Top"><div id="TopContent" onclick="document.location = 'http://www.badmintongear.nl/'">
+                    <img src="12609_Header_nl.jpg" alt="Header" />
+                </div></div>
+            <div id="ButtonBar">
+                <div id="ButtonBarContent">
+                    <span class="Button">
+                        <a href="http://www.badmintongear.nl" class="ButtonSelected" >
+                            Home
+                        </a>
+                    </span>
+                    <span class="ButtonSeperator1">&nbsp;</span>
+                    <span class="ButtonSeperator2">&nbsp;</span>
+                    <span class="Button">
+                        <a href="https://badmintongear.securearea.eu/website/index.php?TreeItem=108922" onclick="GA_link('https://badmintongear.securearea.eu/website/index.php?TreeItem=108922'); return false;">
+                            Account Login
+                        </a>
+                    </span>
+                    <span class="ButtonSeperator1">&nbsp;</span>
+                    <span class="ButtonSeperator2">&nbsp;</span>
+                    <span class="Button">
+                        <a href="https://badmintongear.securearea.eu/website/index.php?TreeItem=108674" onclick="GA_link('https://badmintongear.securearea.eu/website/index.php?TreeItem=108674'); return false;">
+                            Contact
+                        </a>
+                    </span>
+                    <span class="ButtonSeperator1">&nbsp;</span>
+                    <span class="ButtonSeperator2">&nbsp;</span>
+                    <span class="Button">
+                        <a href="http://www.badmintongear.nl/Webwinkel-Page-108672/Algemene-Voorwaarden.html" >
+                            Algemene Voorwaarden
+                        </a>
+                    </span>
+                    <span class="ButtonSeperator1">&nbsp;</span>
+                    <span class="ButtonSeperator2">&nbsp;</span>
+                    <span class="Button">
+                        <a href="http://www.badmintongear.nl/Free-Shipping-(Holland-only)" >
+                            Bestellen Zonder Verzendkosten
+                        </a>
+                    </span>
+                    <span class="ButtonSeperator1">&nbsp;</span>
+                    <span class="ButtonSeperator2">&nbsp;</span>
+                    <span class="Button">
+                        <a href="http://www.badmintongear.nl/Webwinkel-Page-117596/Bespan-Service.html" >
+                            Bespan Service
+                        </a>
+                    </span>
+                    <span class="ButtonSeperator1">&nbsp;</span>
+                    <span class="ButtonSeperator2">&nbsp;</span>
+                    <span class="Button">
+                        <a href="http://www.badmintongear.nl/Newsletter" >
+                            Nieuwsbrief
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <div id="Container">
+                <div id="Left">
+                    <div class="WindowTop">Zoeken</div>
+                    <form action="http://badmintongear.nl/website/index.php" method="get" id="QuickSearch">
+                        <div class="Window">
+                            <!-- type zoekwoorden-->
+                            <span>Zoekterm(en)</span><br />
+                            <input type="text" name="QS_KeyWord" class="QS_Input" style="font-size:12px;" onkeypress="return submitByEnterOnFormId('QuickSearch',event);" value=""/><br />
+                            <!-- Zelf gedefineerde menu's -->
+                            <div id="CustomMenus_QS">
+                            </div>	
+                            <input type="hidden" id="QS_CustomMenuValues" name="QS_CustomMenuValues" value="" />
+                            <div style="float: right; margin-top: 5px;">
+                                <span class="StandardButtonLeft"></span><span onclick="defineCustomMenus();document.getElementById('QuickSearch').submit();" class="StandardButton">Zoeken</span><span class="StandardButtonRight"></span>
+                            </div>				
+                            <input type="hidden" name="Show" value="Search" />
+                            <input type="hidden" name="SearchEntry" value="QuickSearch" />
+                            <div style="clear:both"></div>
+                        </div>
+                    </form>	
+                    <div class="HeightSpace"></div>
+                    <div class="WindowTop">Categoriestructuur</div>
+                    <div class="Window">
+                        <div class="LinkButton"><a href="http://www.badmintongear.nl/Badminton-Stringing-Accessories-Bespan-Accessoires">
+                                Bespan Accessoires
+                            </a></div>
+                        <div class="LinkButton"><a href="http://www.badmintongear.nl/Badminton-Accessories-Accessoires">
+                                Accessoires
+                            </a></div>
+                        <div class="LinkButton"><a href="http://www.badmintongear.nl/Badminton-Injury-Prevention-Treatment-Blessures">
+                                Blessures
+                            </a></div>
+                        <div class="LinkButton"><a href="http://www.badmintongear.nl/Badminton-Clothing-Kleding">
+                                Kleding
+                            </a></div>
+                        <div class="LinkButton"><a href="http://www.badmintongear.nl/Badminton-Rackets">
+                                Rackets
+                            </a></div>
+                    </div>
+                    <div class="HeightSpace"></div>
+                </div>
+                <div id="Content">
+                    <!-- Modulaire Pagina -->
+                    <div class="ContentWindow">
+                        <h1>NU NIEUW IN HET ASSORTIMENT:</h1>
+                        <!-- Tekst Item -->
+                        <div style="text-align: center; width: 100%">
+                            <div style="text-align: center">
+                            		<span class="ProductContainerBig">
+                                    <span class="HomeProductProposalImage" style="height: 200px">		
+                                        <a  href="http://www.badmintongear.nl/Webwinkel-Product-12047182/Yonex-Voltric-Z-Force.html" >
+                                            <img style="margin-top: 59px" src="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/Medium/12421726.jpg" alt="Yonex-Voltric-Z-Force" />
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalName">
+                                        <a href="http://www.badmintongear.nl/Webwinkel-Product-12047182/Yonex-Voltric-Z-Force.html">
+                                            Yonex Voltric Z-Force
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalOrgPrice" style="font-size: 120%;">		
+                                        &euro; 219,95		
+                                    </span>
+
+                                    <span class="HomeProductProposalPrice" style="font-size: 120%;">
+                                        &euro; 175,00
+                                    </span>
+
+                                </span>
+                                </div>            
+                           </div>
+                        <div class="clear"></div>
+                        <!-- CATEGORIE LISTS -->
+                        <div style="clear: both; font-size: 0px; height: 0px"></div>
+                    </div>				<div class="ContentWindow">
+                        <h1>Aanbiedingen (op=op):</h1>
+                        <!-- Tekst Item -->
+                        <div style="width: 100%">
+                            <div style="text-align: center; width: 100%">
+                                <span class="ProductContainer">
+                                    <span class="HomeProductProposalImage">
+                                        <a class="preview" href="http://www.badmintongear.nl/Webwinkel-Product-5382286/Yonex-BAG10026P-Pro-Racket-Bag.html" title="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/MaxContent/6357284.jpg">
+                                            <img style="margin-top: 0px" width="90" height="90" src="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/Small/6357284.jpg" alt="Yonex-BAG10026P-Pro-Racket-Bag" />
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalName">
+                                        <a href="http://www.badmintongear.nl/Webwinkel-Product-5382286/Yonex-BAG10026P-Pro-Racket-Bag.html">
+                                            Yonex BAG100..
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalOrgPrice">
+
+                                        &euro; 74,95
+
+                                    </span>
+
+                                    <span class="HomeProductProposalPrice">
+                                        &euro; 59,95
+                                    </span>
+                                </span>
+                                <span class="ProductContainer">
+                                    <span class="HomeProductProposalImage">
+                                        <a class="preview" href="http://www.badmintongear.nl/Webwinkel-Product-5382287/Yonex-BAG10029P-Pro-Racket-Bag.html" title="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/MaxContent/6357290.jpg">
+                                            <img style="margin-top: 0px" width="90" height="90" src="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/Small/6357290.jpg" alt="Yonex-BAG10029P-Pro-Racket-Bag" />
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalName">
+                                        <a href="http://www.badmintongear.nl/Webwinkel-Product-5382287/Yonex-BAG10029P-Pro-Racket-Bag.html">
+                                            Yonex BAG100..
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalOrgPrice">
+
+                                        &euro; 84,95
+
+                                    </span>
+
+                                    <span class="HomeProductProposalPrice">
+                                        &euro; 69,95
+                                    </span>
+                                </span>
+                            </div>
+                            <div style="clear:both;"></div>            </div>
+                        <div class="clear"></div>					
+                        <!-- CATEGORIE LISTS -->
+                        <div style="clear: both; font-size: 0px; height: 0px"></div>
+                    </div>	
+                    <br /><br />
+                    <br />
+                </div>
+                <div id="Right">
+                    <div class="WindowTop">Choose your language</div>
+                    <div class="Window">
+                        <a href="http://www.badmintongear.nl/?sid=37s2ia0fa636m6i75mm9a2qse5&amp;Lng=nl">
+                            <img src="http://12609.static.securearea.eu/website/Images/Languages/nl.gif" alt="nl" title="nl" />
+                        </a>
+                        <a href="http://www.badmintongear.nl/?sid=37s2ia0fa636m6i75mm9a2qse5&amp;Lng=en">
+                            <img src="http://12609.static.securearea.eu/website/Images/Languages/en.gif" alt="en" title="en" />
+                        </a>
+                    </div>
+                    <div class="HeightSpace"></div>
+                    <div class="WindowTop">Winkelwagen</div>
+                    <div class="Window" id="idSmallShoppingCart">
+                        <table border="0" cellpadding="2" cellspacing="0" class="ShoppingCart" onclick="document.location = 'http://www.badmintongear.nl/website/index.php?Show=WebShopBasket';">
+                            <tr>
+                                <td align="center" colspan="2">
+                                    <a href="http://www.badmintongear.nl/website/index.php?Show=WebShopBasket">
+                                        Er zijn geen producten in de winkelwagen
+                                    </a>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                    <div class="HeightSpace"></div>
+                    <div class="Bannershtml" style="text-align: center; width: 202px; padding-bottom: 5px;"><div id="fb-root"></div>
+                    <div class="fb-like-box" data-href="http://www.facebook.com/BadmintonGear.nl" data-width="200" data-height="210" data-show-faces="true" data-stream="true" data-header="true"></div></div><div class="HeightSpace" ></div>				
+                    <div class="WindowTop">In de aanbieding</div>
+                    <div class="Window">
+                        <div class="Offer" onclick="document.location = 'http://www.badmintongear.nl/Webwinkel-Product-5834727/Yonex-Pro-Pouch-Bag-4434-Black-Red.html'">
+                            <a href="http://www.badmintongear.nl/Webwinkel-Product-5834727/Yonex-Pro-Pouch-Bag-4434-Black-Red.html" class="WindowTitle">
+                                Yonex Pro Pouch Bag 4434 Black/Red
+                            </a>
+                            <br /><br />
+                            <img src="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/Small/6971889.jpg" alt="Yonex-Pro-Pouch-Bag-4434-Black-Red" />
+                            <br /><br />
+                            <span class="OfferOrgPrice">&euro; 19,95</span>&nbsp;&nbsp;<span class="OfferPrice">&euro; 14,95</span>
+                        </div>
+                    </div>
+                    <div class="HeightSpace"></div>
+                    <div class="WindowTop">Login</div>
+                    <div class="Window">
+                        <form action="https://badmintongear.securearea.eu/website/index.php?Show=WebShopUserLogin&amp;sid=37s2ia0fa636m6i75mm9a2qse5" method="post" id="UL_Login" onsubmit="GA_linkByPost(this)">
+                            <p>
+                                <input type="hidden" name="UL_LOGIN" value="Y" />
+                                <input type="text" name="UL_USERNAME" size="26" style="font-size: 12px; width: 100%; margin-bottom: 3px" value="Gebruiker" onclick="this.value=''" /><br />
+                                <input type="password" name="UL_PASSWORD" size="26" style="font-size: 12px; width: 100%" value="Wachtwoord" onclick="this.value=''" onkeypress="return submitByEnterOnFormId('UL_Login',event);" />
+                            </p>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr style="height: 30px;">
+                                    <td>
+                                        <span class="StandardButtonLeft WindowNewUserButtonLeft"></span><span onclick="GA_link('https://badmintongear.securearea.eu/website/index.php?Show=WebShopUserLogin&amp;First=true&amp;sid=37s2ia0fa636m6i75mm9a2qse5'); return false;" class="StandardButton WindowNewUserButton"> Nieuwe klant </span><span class="StandardButtonRight WindowNewUserButtonRight"></span>
+                                    </td>
+                                    <td align="right">
+
+                                        <span class="StandardButtonLeft WindowLoginButtonLeft"></span><span onclick="document.getElementById('UL_Login').submit()" class="StandardButton WindowLoginButton"> Login </span><span class="StandardButtonRight WindowLoginButtonRight"></span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                    <div class="HeightSpace"></div>
+                </div>
+                <div id="Footer"><div id="FooterContent"><div class="BottomLineText" style="float:right">Alle bedragen zijn&nbsp;inclusief&nbsp;BTW&nbsp; &nbsp;<a href="https://badmintongear.securearea.eu/onderhoud/" rel="external"><img src="http://12609.static.securearea.eu/website/Templates/BBStyle/Images/sleutelklein.gif" alt="" /></a></div><div class="BottomLineText" style="float:left">Powered by <a href="http://biedmeerwebwinkels.nl/" rel="external" title="Webwinkel beginnen">BiedMeer webwinkel</a></div></div></div>
+            </div>
+        </div>
+        <div style="height: 0px;"><img src="" width="0" height="0" alt="" id="StatsImage" /></div>
+        <!-- Alfa .43 -->
+    </body>
+</html>

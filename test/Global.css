@@ -1,0 +1,1824 @@
+/* Single Property Classes */
+.AutoWidth { width:auto;}
+
+.Background_333 { background:#333;}
+.Background_EDEDED, .Background_EDEDED td { background:#EDEDED;}
+.Background_F6F6F6, .Background_F6F6F6 td { background:#F6F6F6;}
+.Block { display:block;}
+.Bold { font-weight:bold;}
+.Border_Bottom_1_Solid_FFF { border-bottom:1px solid #FFF;}
+.Border_1_Solid_ { border:1px solid #424242;}
+.Border_BLR_1_Solid_ { border-left: 1px solid #424242; border-right: 1px solid #424242; border-bottom: 1px solid #424242;}
+.Border_Bottom_1_Solid_ { border-bottom:1px solid #424242;}
+.Border_Right_1_Solid_ { border-right:1px solid #424242;}
+.Border_Top_1_Solid_ { border-top:1px solid #424242;}
+/* Blauwe template borders */
+.Border_1_Solid_blauw { border:1px solid #0b2a3f;}
+.Border_BLR_1_Solid_blauw { border-left: 1px solid #0b2a3f; border-right: 1px solid #0b2a3f; border-bottom: 1px solid #0b2a3f;}
+.Border_Bottom_1_Solid_blauw { border-bottom:1px solid #0b2a3f;}
+.Border_Right_1_Solid_blauw { border-right:1px solid #0b2a3f;}
+.Border_Top_1_Solid_blauw { border-top:1px solid #0b2a3f;}
+/* Gele template borders */
+.Border_1_Solid_geel { border:1px solid #32350a;}
+.Border_BLR_1_Solid_geel { border-left: 1px solid #32350a; border-right: 1px solid #32350a; border-bottom: 1px solid #32350a;}
+.Border_Bottom_1_Solid_geel { border-bottom:1px solid #32350a;}
+.Border_Right_1_Solid_geel { border-right:1px solid #32350a;}
+.Border_Top_1_Solid_geel { border-top:1px solid #32350a;}
+/* Grijze template borders */
+.Border_1_Solid_grijs { border:1px solid #373737;}
+.Border_BLR_1_Solid_grijs { border-left: 1px solid #373737; border-right: 1px solid #373737; border-bottom: 1px solid #373737;}
+.Border_Bottom_1_Solid_grijs { border-bottom:1px solid #373737;}
+.Border_Right_1_Solid_grijs { border-right:1px solid #373737;}
+.Border_Top_1_Solid_grijs { border-top:1px solid #373737;}
+/* Groene template borders */
+.Border_1_Solid_groen { border:1px solid #13310d;}
+.Border_BLR_1_Solid_groen { border-left: 1px solid #13310d; border-right: 1px solid #13310d; border-bottom: 1px solid #13310d;}
+.Border_Bottom_1_Solid_groen { border-bottom:1px solid #13310d;}
+.Border_Right_1_Solid_groen { border-right:1px solid #13310d;}
+.Border_Top_1_Solid_groen { border-top:1px solid #13310d;}
+/* Oranje template borders */
+.Border_1_Solid_oranje { border:1px solid #49330c;}
+.Border_BLR_1_Solid_oranje { border-left: 1px solid #49330c; border-right: 1px solid #49330c; border-bottom: 1px solid #49330c;}
+.Border_Bottom_1_Solid_oranje { border-bottom:1px solid #49330c;}
+.Border_Right_1_Solid_oranje { border-right:1px solid #49330c;}
+.Border_Top_1_Solid_oranje { border-top:1px solid #49330c;}
+/* Paarse template borders */
+.Border_1_Solid_paars { border:1px solid #230835;}
+.Border_BLR_1_Solid_paars { border-left: 1px solid #230835; border-right: 1px solid #230835; border-bottom: 1px solid #230835;}
+.Border_Bottom_1_Solid_paars { border-bottom:1px solid #230835;}
+.Border_Right_1_Solid_paars { border-right:1px solid #230835;}
+.Border_Top_1_Solid_paars { border-top:1px solid #230835;}
+/* Rode template borders */
+.Border_1_Solid_rood { border:1px solid #3b0e0b;}
+.Border_BLR_1_Solid_rood { border-left: 1px solid #3b0e0b; border-right: 1px solid #3b0e0b; border-bottom: 1px solid #3b0e0b;}
+.Border_Bottom_1_Solid_rood { border-bottom:1px solid #3b0e0b;}
+.Border_Right_1_Solid_rood { border-right:1px solid #3b0e0b;}
+.Border_Top_1_Solid_rood { border-top:1px solid #3b0e0b;}
+
+.CanvasImage { background:center center no-repeat}
+.Center { text-align:center;}
+.CenterV { vertical-align:middle;}
+.CB { clear:both;}
+.Color_42 { color:#424242;}
+.Color_F00 { color:#F00;}
+.Color_FFF { color:#FFF;}
+.Corner { display:table-cell; width:10px; height:27px; }
+.CornerLeft { display:table-cell; width:100%; vertical-align: middle;}
+
+.FL { float:left;}
+.FR { float:right;}
+.FontSize110p { font-size:110%;}
+.FontSize125p { font-size:125% !important;}
+
+/** 
+    Omdat IE anders met het boxmodel en daarmee de hoogte van elementen omgaat,
+    zijn er twee definities per hoogte i.c.m. padding, de naamgeving is gebasseerd op de 
+    werkelijke breedte in de W3C compliant browsers, echter is de ingegeven waarde op basis van IE.
+    Onder deze waarde staat de definitie voor FF en Chrome.
+    
+    -- Ben
+**/ 
+
+.Hand { cursor: pointer;}
+.H14 { height:14px !important;}
+.H20 { height:20px !important;}
+.H27 { height:27px !important;}
+.H30 { height:30px !important;}
+.H40 { height:40px !important;}
+.H45 { height:45px !important;}
+.H60 { min-height:60px !important;}
+.H65 { height:65px !important;}
+.H75 { height:75px !important;}
+.H80 { height:80px !important;}
+.H85 { height:85px !important;}
+.H90 { height:90px !important;}
+.H91 { height:91px !important;}
+.H100 { height:105px !important;}
+.H115 { height:115px !important;}
+.H117 { height:117px !important;}
+.H125 { height:125px !important;}
+.H195 { height:195px !important;}
+.H200 { height:200px !important;}
+.H225 { height:225px !important;}
+.H295 { height:295px !important;}
+.H325 { height:325px !important;}
+.H350 { height:350px !important;}
+.H387 { height:407px !important;}
+.H405 { height:415px !important;}
+html>body .H387 { height:387px !important;}
+
+.IE_ExtraMargin_Top_13 { margin-top: 13px;}
+html>body .IE_ExtraMargin_Top_13 { margin-top:0px}
+.IE_ExtraPadding_Top_13 { padding-top: 13px;}
+html>body .IE_ExtraPadding_Top_13 { padding-top:0px}
+.IE_ExtraPadding_Top_30 { padding-top: 30px;}
+html>body .IE_ExtraPadding_Top_30 { padding-top:0px}
+.IE_ExtraPadding_Top_40 { padding-top: 40px;}
+html>body .IE_ExtraPadding_Top_40 { padding-top:0px}
+.Icon { position:absolute; padding-top:4px;}
+
+.Left { text-align:left;}
+.LineHeight125p { line-height:125%;}
+.LineHeight175p { line-height:175%;}
+.LineHeight200p { line-height:200%;}
+.LineHeight225p { line-height:225%;}
+.LineThrough { text-decoration:line-through;}
+
+.Margin_Bottom_3 { margin-bottom:3px;}
+.Margin_Bottom_20 { margin-bottom:30px;}
+.Margin_Top_5 { margin-top:5px;}
+.Margin_Bottom_5 { margin-bottom:5px;}
+.Margin_Bottom_10 { margin-bottom:10px;}
+.Margin_Right_5 { margin-right:5px;}
+.Margin_Right_10 { margin-right:10px;}
+.Middle { vertical-align: middle;}
+
+.OA { overflow:auto;}
+.OH { overflow: hidden;}
+
+.Padding_10 { padding:10px;}
+.Padding_Bottom_5 { padding-bottom:5px;}
+.Padding_Bottom_Top_10 { padding-bottom:10px; padding-top:10px;}
+.Padding_Left_10 { padding-left:10px;}
+.Padding_Right_5 { padding-right:5px;}
+.Padding_Right_10 { padding-right:10px;}
+.Padding_Top_5 { padding-top:5px;}
+.Padding_Top_7 { padding-top:7px;}
+.Padding_Top_20 { padding-top:20px;}
+.Padding_Top_40 { padding-top:33px;}
+
+.Right { text-align:right;}
+
+.SmallUnderline { font-size:0.95em !important; text-decoration:none}
+.SmallUnderline:hover { text-decoration:underline;}
+
+.TableCell { display:table-cell;}
+.TextBottom { vertical-align:bottom;}
+.TopV { vertical-align:top;}
+.TT { vertical-align:text-top;}
+
+.VT { vertical-align: top;}
+
+/** 
+    Omdat IE anders met het boxmodel en daarmee de breedte van elementen omgaat,
+    zijn er twee definities per percentuele breedte, de naamgeving is gebasseerd op de 
+    werkelijke breedte in de W3C compliant browsers, echter is de ingegeven waarde op basis van IE.
+    Onder deze waarde staat de definitie voor FF en Chrome.
+    
+    -- Ben
+**/ 
+.W1 { width:1px;}
+.W10p { width:10%;}
+.W20 { width:20px;}
+.W28p { width:32%;} 
+html>body .W28p { width:28%;}
+.W25 { width:25px;}
+.W30 { width:30px;}
+.W40 { width:40px;}
+.W50 { width:50px;}
+.W100 { width:100px;}
+.W107 { width:107px;}
+.W117 { width:117px;}
+.W120 { width:120px;}
+.W172 { width:172px;}
+.W173 { width:173px;}
+.W0p { width:0%;}
+.W19p { width:19%;}
+.W32p { width:32%;}
+.W39 { width:39px;}
+.W40p { width:40%;}
+.W50p { width:50%;}
+.W60p { width:60%;}
+.W65 { width:65px;}
+.W80 { width:80px;}
+.W80p { width:80%;}
+.W90p { width:87%;}
+.W100p { width:100%;}
+
+/* PermIcons */
+.Banners, .Bannershtml, .Bannerstext {
+	padding: 0px;
+	margin: 0px;	
+}
+
+.Banners{	
+	line-height: 0px;
+}
+
+/*
+.Banners a {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;	
+}
+
+.BannersLink img, .BannersLink {
+	padding: 0px;
+	margin: 0px;
+	line-height: 0px;
+	border: 0px;		
+}
+*/
+.Bannershtml {
+	text-align: center;
+} 
+
+.Bannerstext {
+	text-align: left;
+}
+
+/* Teksten van pagina's */
+.ElementText {
+	width: 100%;
+}
+
+/* Productnumber oa */
+
+.SmallInactive {
+	font-weight: normal;
+	font-size: 0.8em;
+}
+
+
+/* Oa in de basket */
+
+.Blackline {
+	width: 100%; 
+	height: 2px; 
+	font-size:0px;
+	background-color: #000000
+}
+
+/* In de lijst met foto's naast elkaar. De scheidingsteken' */
+.FloatProductBorder {
+	border-left: 1px dashed #BEBEBE; 
+	height: 90px; 
+	width: 2px; 
+	float: left;
+}
+
+.FloatProductBorderBig {
+	border-left: 1px dashed #BEBEBE; 
+	height: 240px; 
+	width: 2px; 
+	float: left;
+}
+
+.OrderHistoryTable {
+	 border: 1px solid #000000;
+}
+
+.OrderHistoryBlackLine {
+	border-bottom: 1px solid #000000;
+	font-size: 11px;
+}
+.OrderHistoryTopLine {
+	border-top: 1px solid #000000;	
+}
+
+.OrderHistoryHeading {
+	background: #e9e9e9;
+}
+
+.MaxWidth {
+	width: 420px;
+}
+
+.HomeCatProposal {
+	float: left;
+	cursor: pointer; 
+	cursor: hand;
+	width: 120px;
+	height: 140px;
+}
+
+.HomeCatProposalName {
+  	font-weight: bold;
+	text-align: center;
+	padding-bottom: 5px;
+	height: 40px;
+}
+
+
+.HomeCatProposalName a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.HomeCatProposalImage {
+	text-align: center;
+	padding-bottom: 10px;	
+}
+
+.ProductContainerPhotoList2 {
+	display: inline-block; 
+	width: 160px; 
+	height: 190px;
+	margin-bottom: 30px; 
+	margin-right: 2px; 
+	border-left: 1px dashed #A0A0A0; 
+	border-right: 1px dashed #A0A0A0; 
+	vertical-align: top 	
+}
+
+
+.ProductContainerBig {
+	display: inline-block; 
+	width: 240px; 
+	height: 284px; 
+	margin-bottom: 30px; 
+	margin-right: 2px; 
+	border-left: 1px dashed #A0A0A0; 
+	border-right: 1px dashed #A0A0A0; 
+	vertical-align: top 	
+}
+
+.ProductContainer {
+	display: inline-block; 
+	width: 119px; 
+	height: 160px; 
+	margin-bottom: 30px; 
+	margin-right: 1px; 
+	border-left: 1px dashed #A0A0A0; 
+	border-right: 1px dashed #A0A0A0; 
+	vertical-align: top;	
+}
+
+.HomeProductProposal{
+	display: inline-block; 
+	width: 120px;
+	margin: 0px;
+	float: left;
+}
+
+.HomeProductProposalBig{
+	display: inline-block; 	
+	width: 240px;
+	margin: 0px;
+	text-align: center;
+	float: left;
+}
+
+legend {
+	font-weight: bold;
+	color: #606060;	
+	border: 1px solid #A0A0A0;
+	padding: 0.0em 0.5em;	
+	font-size: 11px;	
+}
+
+fieldset {
+	margin-bottom: 10px;
+	width: 100%;	
+}
+
+.Product_Photo {
+	float: right;
+	text-align: center;
+}
+
+
+H1 {
+  	padding-top: 0px;
+  	padding-bottom: 7px;
+	font-size: 14px; 
+}
+
+table {
+	font-size: 12px;
+}
+
+img {
+	border: 0px none #000000;
+	margin: 0px;
+	padding: 0px;
+}
+
+.AddressBar {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+hr {
+	clear: both;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 98%;
+}
+
+/* 
+	Global classes
+*/
+
+.StandardButton, .StandardButton a {
+  	font-weight: bold;
+  	text-decoration: none;
+  	cursor: pointer;
+	cursor: hand;
+}
+
+.WindowSearchButtonLeft{
+    background-image:none !important;
+    background-color:transparent !important;
+    font-weight: bold;
+  	text-decoration: none;
+  	cursor: pointer;
+	cursor: hand;
+}
+.WindowSearchButton{
+    background-image:none !important;
+    background-color:transparent !important;
+    font-weight: bold;
+  	text-decoration: none;
+  	cursor: pointer;
+	cursor: hand;
+}
+.WindowSearchButtonRight{
+    background-image:none !important;
+    background-color:transparent !important;
+    font-weight: bold;
+  	text-decoration: none;
+  	cursor: pointer;
+	cursor: hand;
+}
+.StandardButton img {
+	vertical-align: middle;
+}
+
+.InputAmount {
+  	font-size: 11px !important;
+}
+
+.SelectBox {
+	font-size:10px;
+}
+
+.ErrorText {
+  	font-weight: bold;
+	color: red;  
+}
+
+/*
+	Quick search
+*/
+.QS_Input {
+	width: 100%;
+}
+
+/*
+	HomeTemplate classes
+*/
+
+.HomeText {
+  	padding-top: 0px;
+  	padding-left: 20px;
+  	padding-right: 20px;  
+}
+
+.HomeProductProposalContainer {
+	float: left; 
+	height: 176px; 
+	width: 130px;	    
+}
+
+.HomeProductProposal {
+	width: 120px; 
+	float: left;	
+  	cursor: pointer; 
+	cursor: hand;
+}
+
+.HomeProductProposalSmall {
+	width: 95px;
+    height:80px; 
+	float: left;	
+  	cursor: pointer; 
+	cursor: hand;
+}
+
+.HomeProductProposalImageBig {
+	display: inline-block; 
+	width: 222px; 
+	height: 200px;
+  	cursor: pointer; 
+	cursor: hand;
+}
+
+.HomeProductProposalImage {
+	display: inline-block; 
+	width: 100%;
+	text-align: center;
+	height: 80px;
+}
+
+.HomeProductProposalImage2 {
+	display: inline-block; 
+	width: 100%;
+	text-align: center;
+	height: 115px;
+}
+
+.HomeProductProposalName {
+	display: inline-block; 
+	width: 100%;
+  	font-weight: bold;
+	text-align: center;
+}
+
+.HomeProductProposalNameSmall {
+    display:block;
+    float:left;
+    width:100%;
+}
+
+.PriceFrom { 
+    text-decoration:line-through;
+    font-size:90%;
+}
+
+.Price {
+    font-size:110%;
+    font-weight:bold;    
+}
+
+.HomeProductProposalName2 {
+	display: inline-block; 
+	width: 100%;
+  	font-weight: bold;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.HomeProductProposalName a {
+	text-decoration: none;
+}
+
+.HomeProductProposalOrgPrice {
+	display: inline-block; 
+	width: 100%;
+	text-align: center;
+	text-decoration: line-through;
+}
+
+.HomeProductProposalPrice {
+	display: inline-block; 
+	width: 100%;
+	text-align: center;
+}
+
+.HomeCatProposalImage {
+	
+}
+
+
+/*
+	ProductList
+*/
+
+.ProductList_Header {
+	font-size: 12px;
+  	font-weight: bold;
+}
+
+.ProductList_TDPhoto {
+	width: 120px; 
+	text-align: center;  
+  	cursor: pointer; 
+	cursor: hand; 
+}
+
+.ProductList_TDDescription {
+	vertical-align: top;
+	padding-left: 10px;
+	padding-right: 10px;
+  	cursor: pointer; 
+	cursor: hand; 
+}
+
+.ProductList_TDDescription a {
+	text-decoration: none;
+	
+	color: #000000;
+}
+
+.ProductList_TDPrice {
+	vertical-align: top;
+	text-align: right;
+	width: 90px;
+	padding-left: 10px;
+  	cursor: pointer; 
+	cursor: hand; 
+}
+
+.ProductList_ProductAmount {
+  	
+}
+
+.ProductList_ProductPrice {
+	font-weight: bold;
+}
+
+.ProductList_ProductOrgPrice {
+	text-decoration: line-through;
+}
+
+.ProductList_ProductPiece{
+  
+}
+
+.ProductList_ProductTitle{
+  	font-weight: bold;	    
+}
+
+
+.ProductList_Orderbutton {
+  	font-weight: bold;
+  	text-decoration: none;
+}
+
+.ProductList_NoProducts {
+  	font-weight: bold;
+}
+
+/*
+	CategorieList
+*/
+
+/* CSS voor categorie-layout: Overzicht twee blokken met foto, door Ben */
+.CategoryList_TwoBlocks { 
+    display: block;
+    width:49%;
+    padding:10px;
+    height:100px;
+    float:left;
+    background:#ECECEC;
+    margin:1px 1px 0px 0px;
+    overflow:hidden;
+}
+html>body .CategoryList_TwoBlocks { width:45%;}
+
+/* CSS voor categorie-layout: Overzicht drie blokken met foto, door Ben */
+.CategoryList_ThreeBlocks { 
+    display: block;
+    width:33%;
+    padding:5px;
+    height:370px;
+    float:left;
+    margin-right: 1px;
+}
+
+html>body .CategoryList_ThreeBlocks { width:31%;}
+
+.CategoryList_Container {  	
+	width: 120px;	
+	height: 134px;
+	float: left;
+	cursor: pointer; 
+	cursor: hand; 
+	margin-right: 10px;
+	margin-bottom: 30px;
+}
+
+.CategoryList_Photo {
+	padding: 0px; 
+	text-align: center;
+	height: 90px;
+	*height: 92px;
+	width: 120px;
+	*width: 124px;
+	
+}
+
+.CategoryList_TitleBar {
+	height: 40px;
+	border-top: 0px;
+	font-weight: bold;
+	padding: 0px;
+	text-align: center;
+	width: 120px;
+	*width: 122px;
+}
+
+.CategoryList_TitleBar a {
+	text-decoration: none;
+}
+/*
+	ShowProduct
+*/
+
+.ShowProduct_Title {
+  	font-weight: bold;
+  	font-size: 13px;
+  	padding-bottom: 2px;
+}
+
+.ShowProduct_OrgPrice {
+  	text-decoration: line-through;
+}
+
+.ShowProduct_Price {
+  	font-weight: bold;
+	font-size: 14px;  
+}
+
+
+.ShowProduct_FieldName {
+	font-weight: bold;
+	width: 170px;
+
+}
+
+.ShowProduct_PhotoElement {
+  	float: right; 
+	cursor: pointer; 
+	cursor: hand; 
+	padding: 5px;
+} 
+
+.ShowProduct_Photo {
+  	border: 1px solid #8A8A8A;
+}
+
+.Product_EnlargePhoto, .Product_EnlargePhoto a {
+	font-weight: normal;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.Product_EnlargePhoto:hover {
+	color: #606060;
+	text-decoration: underline;
+}
+
+.ShowProduct_BigPhotoElement{
+  	cursor: pointer; 
+	cursor: hand; 
+	padding: 8px;
+	}
+/*
+	Basket classes
+*/
+
+.OrderProcesPath {
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+.OrderProcesPathBlockSelected{
+    width: 20px; 
+    height: 17px;
+    *height: 20px; 
+    background-color: black; 
+    color: white; 
+    display: block; 
+    float: left; 
+    text-align: center; 
+    font-weight: bold; 
+    padding-top: 3px; 
+    margin-right: 5px;    
+}
+
+.OrderProcesPathBlockNotSelected{
+    width: 20px; 
+    height: 17px;
+    *height: 20px; 
+    background-color: #F0F0F0; 
+    color: black; 
+    display: block; 
+    float: left; 
+    text-align: center; 
+    font-weight: bold; 
+    padding-top: 3px; 
+    margin-right: 5px; 
+}
+
+.OrderProcesPathTextSelected{
+    display: block; 
+    float: left; 
+    padding-top: 2px; 
+    font-size: 13px;     
+    font-weight: bold;
+    padding-right: 7px;
+    margin-right: 7px;
+    height: 18px;
+    *height: 20px; 
+    border-right: 1px solid black;
+}
+
+.OrderProcesPathTextSelectedLast{
+    display: block; 
+    float: left; 
+    padding-top: 2px; 
+    font-size: 13px;     
+    font-weight: bold;    
+    height: 18px;
+    *height: 20px; 
+}
+
+.OrderProcesPathTextNotSelected{
+    display: block; 
+    float: left; 
+    font-size: 13px;
+    padding-top: 2px; 
+    padding-right: 7px;
+    margin-right: 7px;
+    height: 18px;
+    *height: 20px; 
+    border-right: 1px solid black; 
+}
+
+.OrderProcesPathTextNotSelectedLast{
+    display: block; 
+    float: left; 
+    font-size: 13px;
+    padding-top: 2px;
+    height: 18px;
+    *height: 20px;
+    
+}
+
+#PaymentList, #PaymentList_Icons, #ExtraShippingOptionsGrid {
+	width: 96%;
+	table-layout: fixed;
+}
+
+#PaymentList_Icons tr {
+	height: 50px;
+	vertical-align:  middle;
+}
+
+#PaymentList tr, #ExtraShippingOptionsGrid tr {
+	vertical-align: middle;
+}
+
+#PaymentList td{
+	padding-top: 5px;
+}
+
+#ExtraShippingOptionsGrid td {
+    padding-bottom:5px;
+}
+
+#PaymentList_Icons td {
+	border-bottom: 1px solid #BFBFBF;
+}
+
+
+#PaymentList .Basket_PayMethod_Radio {
+	text-align: right;
+	width: 200px;
+	padding-right: 10px;
+	vertical-align: top;
+}
+
+#PaymentList_Icons .Basket_PayMethod_Radio {
+	width: 40px;
+}
+
+#ExtraShippingOptionsGrid .Basket_PayMethod_Radio {
+    width:31px;
+	padding-right: 10px;
+	vertical-align: top;
+    text-align:right;
+}
+
+.Basket_PayMethod_img {
+	height: 32px;
+	vertical-align: middle;
+	margin-right: 5px;	
+}
+
+.Basket_PayMethod_img_td{
+	text-align: left;
+}
+
+.Basket_ExtraPrice {
+	text-align: right;
+	padding-left: 10px;
+}
+
+.Basket_HeaderAmount {
+	text-align: center;
+	font-weight: bold;   
+}
+
+.Basket_HeaderPhoto {
+  	text-align: center;
+	font-weight: bold; 
+}
+
+.Basket_HeaderProduct {
+  	text-align: left;
+	font-weight: bold;  
+	
+}
+
+.Basket_HeaderTotal {
+  	text-align: right;
+	font-weight: bold;   
+}
+
+.Basket_Product {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.Basket_Total {
+	font-weight: bold;
+}
+
+.Basket_Error {
+	width: 98%; 
+	border: 1px solid red; 
+	padding: 5px; 
+	font-weight: bold; 
+	color: red
+}
+
+.Basket_Product {
+	cursor: pointer; 
+	cursor: hand;
+}
+
+.Basket_Photo {
+	cursor: pointer; 
+	cursor: hand;
+}
+
+.RequiredField {
+	color: #A80000;
+	font-weight: bold;
+}
+
+/*
+	Klantgegevens classes
+*/
+
+.CustomerDetails_Title {
+  	padding-left: 24px;
+  	font-weight: bold;
+  	border-bottom: 1px solid grey;
+  	font-size: 12px;
+  	padding-bottom: 2px;
+}
+
+/* 
+	Pagina classes
+*/
+
+.GuestbookTop {
+  	width: 90%;
+  	font-weight: bold;
+  	padding: 2px; 
+}
+
+.GuestbookBottom {
+	border-top: 0px;
+	width: 90%;  
+	padding: 2px;
+	padding-bottom: 2px;
+}
+
+.GuestbookText {
+  	padding: 8px;  
+}
+
+
+.CalendarTop {
+  	border: 1px solid black;
+  	width: 90%;
+  	font-weight: bold;
+  	padding: 2px; 
+}
+
+.CalendarBottom {
+  	border: 1px solid black;
+	border-top: 0px;
+	width: 90%;  
+	padding: 2px;
+	padding-bottom: 2px;
+}
+
+.CalendarText {
+  	padding: 8px;  
+}
+
+.FAQCategory {
+  	padding-left: 24px;
+  	font-weight: bold;
+  	border-bottom: 1px solid grey;
+  	font-size: 12px;
+  	padding-bottom: 2px;	  
+}
+
+.FAQQuestion {
+  	font-weight: bold;
+	padding-left: 10px;  
+	padding-bottom: 4px;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+.FAQAnswer {
+  	padding-top: 6px;
+	padding-bottom: 15px;
+	padding-left: 10px;  
+	color: #8A8A8A;
+}
+
+.PollQuestion {
+  	padding-left: 24px;
+  	font-weight: bold;
+  	border-bottom: 1px solid grey;
+  	font-size: 12px;
+  	padding-bottom: 2px;
+}
+
+.PollBar {
+  	background-color: orange;
+	border-bottom: 1px solid #F0F0F0;  
+}
+
+.NewsPageDate {
+  	color: #8A8A8A;  
+}
+
+.NewsPageTitle {
+  	font-weight: bold;
+}
+
+.MailingListDate {
+	color: #8A8A8A; 
+	padding-left: 10px; 
+}
+
+.MailingListTitle {
+	font-weight: bold;
+}
+
+.MailingListHeader {
+	font-style: italic;
+}
+
+.LinkPageCategory {
+  	padding-left: 24px;
+  	font-weight: bold;
+  	border-bottom: 1px solid grey;
+  	font-size: 12px;
+  	padding-bottom: 2px;  
+}
+
+.LinkPageLink {
+  	padding-left: 44px;  
+}
+
+.BannerBar {
+	margin-bottom: 5px;
+	padding-left: 24px;
+  	font-weight: bold;
+  	font-size: 12px;
+  	padding-bottom: 2px;  
+	
+}
+
+.PageDashBoard_Desc {
+	text-align: center;  
+    padding-top:3px;
+	overflow: hidden; 
+	height:18px;  
+    margin-top:-21px;
+    filter:alpha(opacity=80); 
+    -moz-opacity: 0.8; 
+    opacity: 0.8;
+}
+
+/*
+	TWYP
+*/
+
+.table {
+	font-size:			12px;
+	font-family: 		Arial;
+}
+
+td.ncolh1 	{
+ 	background-color: 	#FFFFFF;
+	color: 				#000000;
+	font-weight: 		bold;
+	font-size: 			1.4em;
+	}
+	
+td.ncoltxtl 		{
+ 	font-size:			1.0em;
+ 	background-color: 	#FFFFFF;
+	color: 				black; 
+	text-align: 		right; 
+	font-weight:		bold;
+	}
+	 
+td.ncoltxtl2 		{
+ 	background-color : 	#FFFFFF;
+	color : 			black; 
+	text-align : 		right; 
+	font-weight :		bold;
+	}
+	
+td.ncoltxtr 		{
+ 	font-size:			1.0em;
+ 	background-color : 	#FFFFFF;
+	color : 			black; 
+	text-align : 		left;
+}
+
+td.ncoltxtc 		{
+	background-color : 	#FFFFFF;
+	color : 			black; 
+	text-align : 		center; 
+	font-weight :		bold;
+	}
+
+td.ncoltxtmessage 	{
+ 	background-color : 	#FFFFFF;
+	color : 			#ffffcc; 
+	text-align : 		left; 
+	font-weight: 		bold;
+	}
+	
+td.ncolinput 		{
+
+}
+
+td.ncolline1 		{
+	color : 			#000000;
+	font-size: 			1.1em;
+	}
+	
+td.ncolline2 		{
+	color : 			black;
+	font-size: 			1.1em;
+	}
+	
+
+
+td.ncollogol	 	{
+ 	background-color : 	#FFFFFF ;
+	color : 			black; 
+	text-align : 		right; 
+	font-weight :		bold;
+	}
+
+td.ncollogor 		{
+	background-color: 	#FFFFFF ;
+	color: 				black; 
+	text-align: 		left; 
+	font-weight:		bold;
+	}
+
+td.ncollogoc 		{
+ 	background-color :	#FFFFFF ;
+	color : 			black; 
+	text-align : 		center; 
+	font-weight :		bold;
+	}
+
+table.ncoltable1	{
+ 	background-color : 	#FFFFFF ; 
+	}
+
+table.ncoltable2 	{
+ 	background-color : 	#FFFFFF ; 
+	}
+
+table.ncoltable3 	{
+ 	background-color : 	#FFFFFF ; 
+	}
+
+table.ncoltable1, table.ncoltable2, table.ncoltable3 {
+	padding: 			10px;
+	margin-bottom: 		10px;
+}
+
+/*
+	Gastenboek
+*/
+
+
+.Next {
+	text-decoration: underline; 
+}
+
+.Previous {
+	text-decoration: underline; 
+}
+
+.Orderfields {
+	width: 222px;	
+}
+
+
+/*
+	User Login
+*/
+.UL_Header {
+ 	padding-left: 24px;
+  	font-weight: bold;
+  	font-size: 12px;
+  	padding-bottom: 2px;	
+}
+
+.UL_Affected_Row {
+	font-weight: bold;
+}
+
+.UL_NonAffected_Row {
+	font-weight: normal;
+}
+
+.UL_INFO {
+  	font-weight: bold;
+  	text-decoration: none;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.SmallInactive {
+	font-weight: normal;
+	font-size: 0.8em;
+}
+
+.floatimgright, .floatimgleft {
+	margin: 10px;
+}
+.floatimgleft {
+	float: left;
+}
+.floatimgright {
+	float: right;
+}
+.AdminBanner {
+	width: 100%;
+	border: 1px dashed #696969;
+	margin: 10px 0px;
+	padding: 5px;
+}
+
+img.BannerImage {
+	border: 0px;
+	margin-top: 15px;
+}
+
+.BannerCenter {
+	text-align: center;
+}
+
+.OrderText {
+	display: block;
+	width: 365px;
+	height: 100px;
+	overflow: -moz-scrollbars-vertical;
+}
+
+.Orderfields {
+	width: 222px;
+}	
+
+.MorePagesButton {
+	border: 1px solid black; 
+	padding: 4px;
+	padding-left: 6px;
+	padding-right: 6px;
+	font-weight: bold;	
+}
+
+.MorePagesBar {
+	width: 100%; 
+	border-top: 1px solid black;
+	clear: both; 
+	height: 10px;
+}
+
+.SearchFormLabel {
+	min-width:110px;
+	width:24%;
+	padding-right:10px;
+	vertical-align:top;
+}
+	
+.SearchFormData {
+	padding-left:15px;
+}	
+
+.SearchFormDataMaxWidth {
+	/* min-width:200px; */
+	width:100%;
+}
+
+input.InputHouseNumber {
+	width: 30px; 
+	margin-right: 20px;
+}
+
+input.InputAddition {
+	width: 40px;
+}
+
+#Product_EnlargePhoto {
+	border: 0px;
+}
+
+#preview{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+    z-index:999;
+}
+
+.ShowProductStaffel_OrgPrice{
+	text-decoration:line-through;
+}
+
+.ActiveStaffelPrice td{
+	color: red;
+}
+
+span.Note {
+	display: block; 
+	border: 1px solid #A0A0A0; 
+	padding: 15px; 
+	width: 496px; 
+	margin-bottom: 10px;
+}
+
+.ShowProductPriceBlock{
+    clear:both;
+    width: 130px; 
+    *width: 160px; 
+    padding: 15px; 
+    padding-top: 15px; 
+    padding-bottom: 20px; 
+    background-color: #505050; 
+    color: white; 
+    text-align: center;
+    margin:auto;
+}
+
+.ShowProductQuickOrderPrice {
+    font-size: 160%; 
+    font-weight: bold;
+    color: #505050;   
+}
+
+.QuickOrderTitle{
+    font-size: 105%; 
+    color: #505050;  
+    padding: 3px; 
+    border-bottom: 1px dashed #A0A0A0;   
+}
+
+
+.ShowProductSplitLayoutBorder {
+	border-top: 1px dashed #A0A0A0; 
+	padding-top: 20px;	
+}
+
+	
+
+.QuickOrderAmount {
+    font-size: 105%; 
+    font-weight: bold; 
+    color: #505050;
+}
+
+.ShowProductSplitLayout_FieldName{
+	width: 10%;	
+}
+
+.GenericDialogStyling{
+    font-size: 12px;
+}
+
+
+/* Nieuwe layouts */
+
+
+.Web20ProductImages_Container {
+	display: inline-block; 
+	width: 248px; 
+	height: 324px; 
+	margin-bottom: 30px; 
+	margin-right: 2px; 
+    padding: 7px;
+	vertical-align: top ;
+    	
+}
+
+
+.Web20ProductImages_Image {
+	display: inline-block; 
+	width: 100%;
+	text-align: center;
+	height: 80px;
+    border-bottom: 1px solid black;
+    
+}
+
+.Web20ProductImages_Name {
+	display: inline-block; 
+	width: 100%;
+    color: #424242;
+  	font-weight: bold;
+	text-align: left;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+/* Select in WebshopShowBasket */
+.BasketSelect {
+	width: 300px;
+}
+
+
+
+.RssLink {
+    padding-left:28px;
+    height:30px;
+    background-image: url(/website/Templates/Global/Images/rss.gif);
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+/*
+
+    Product layout clean
+    
+*/
+
+
+    
+
+.CleanProductContainer {
+	display: inline-block; 
+	width: 163px; 
+	height: 224px; 
+	margin-bottom: 30px; 
+	margin-right: 5px; 
+	vertical-align: top;
+    text-align: left;	
+}
+
+
+.CleanProductImage {
+	display: inline-block; 
+	width: 163px; 
+	height: 140px;
+    border: 1px solid #A0A0A0;
+    text-align: center;
+  	cursor: pointer; 
+	cursor: hand;
+}
+
+.CleanProductName {
+	display: inline-block; 
+	width: 100%;
+    font-size: 12px;
+    margin-top: 4px;
+    height: 34px;
+  	font-weight: bold;
+	text-align: left;
+    color: #444444;
+}
+#Content .CleanProductName a {
+    color: #444444;    
+}
+
+.CleanProductOrgPrice {	
+	text-align: left;
+    font-size: 12px;
+	text-decoration: line-through;
+    color: #444444;
+}
+
+.CleanProductPrice {
+    display: block;
+	font-size: 16px;
+    font-weight: bolder; 	
+	text-align: left;
+    color: #444444;
+}
+
+.CleanProductOrderButtonEnd {
+    display: block; 
+    float: left; 
+    height: 22px; 
+    width: 14px;
+}
+
+.CleanProductOrderButtonCenter{
+    display: block; 
+    float: left; 
+    height: 18px;
+    *height: 22px;
+    color: white;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-top: 4px;
+}
+
+.CleanProductOrderButtonCenter a {
+    color: white;
+}
+
+.CleanProductDetails {
+    display: block; 
+    float: left; 
+    font-weight: bold; 
+    font-size: 9px;
+    padding-top: 4px;
+    
+}
+
+.CleanProductDetails a {
+    color: #444444;
+}
+
+.CleanProductDetails a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* Hieronder uit spul, mag weg */
+
+
+.ProductContainer {
+	display: inline-block; 
+	width: 119px; 
+	height: 160px; 
+	margin-bottom: 30px; 
+	margin-right: 1px; 
+	border-left: 1px dashed #A0A0A0; 
+	border-right: 1px dashed #A0A0A0; 
+	vertical-align: top;	
+}
+
+.HomeProductProposal{
+	display: inline-block; 
+	width: 120px;
+	margin: 0px;
+	float: left;
+}
+
+.HomeProductProposalBig{
+	display: inline-block; 	
+	width: 240px;
+	margin: 0px;
+	text-align: center;
+	float: left;
+}
+
+
+.HomeProductProposalImage {
+	display: inline-block; 
+	width: 100%;
+	text-align: center;
+	height: 80px;
+}
+
+.HomeProductProposalImage2 {
+	display: inline-block; 
+	width: 100%;
+	text-align: center;
+	height: 115px;
+}
+
+.HomeProductProposalName {
+	display: inline-block; 
+	width: 100%;
+  	font-weight: bold;
+	text-align: center;
+}
+
+.HomeProductProposalName2 {
+	display: inline-block; 
+	width: 100%;
+  	font-weight: bold;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.HomeProductProposalName a {
+	text-decoration: none;
+}
+
+.HomeProductProposalOrgPrice {
+	display: inline-block; 
+	width: 100%;
+	text-align: center;
+	text-decoration: line-through;
+}
+
+.HomeProductProposalPrice {
+	display: inline-block; 
+	width: 100%;
+	text-align: center;
+}
+
+.HomeCatProposalImage {
+	
+}
+
+.error {
+	color: #A80000; 
+	font-weight: bold;
+}
+
+.pp_button {
+  	cursor: pointer; 
+	cursor: hand;	
+}
+
+img.kijkwijzer {
+	vertical-align: middle;
+}
+/* tot hier EN VERDER!*/
+
+
+.InputDiscountCoupon{
+	height: 18px !important;
+	font-size: 11px !important;
+	padding: 0px !important;
+}
+
+/* Dit zijn classes voor de categorydescriptionphoto */
+
+.CatDescPhotoCenter{
+    text-align: center;
+    margin: 10px 0; 
+    position: relative; 
+}
+
+.CatDescPhotoTopLeft{
+    float: left; 
+    position: relative;
+    margin: 0 10px 10px 0;
+}
+
+.CatDescPhotoTopRight{
+    float: right; 
+    position: relative;
+    margin: 0 0 10px 10px;
+}
+
+	/*KiYoh venster classes */
+	.KiyOhTopLeft{
+	    background: url('/website/Templates/Global/Images/KiyOh_john_top_left.png'); 
+	    width: 55px;
+	    height: 55px;
+	    position: relative;
+	    float: left;
+	    *left:3px;
+	    padding: 0;
+	    margin-left: 3px;
+	    margin-right: 0;
+	    z-index: 1;
+	    font-size: 20px;
+	    background-repeat: no-repeat;
+	}
+	
+	.KiyOhTopRight{
+	    background: url('/website/Templates/Global/Images/KiyOh_john_top_right.png'); 
+	    width: 137px;
+	    height: 13px;
+	    margin-left: 58px;
+	    padding: 0px;
+	    margin-bottom: 3px;
+	    background-repeat: no-repeat;
+	    *right: 2px;
+	    *position: relative;
+	}
+	
+	.KiyOhMiddle{
+		/* position: relative; 
+		right: 0px;
+		*right:2px;
+		*/ 
+		width: 142px;
+		margin-top: -4px;
+		*margin-top: -61px; 
+		margin-left: 53px;
+		*margin-left: 58px; 
+		background: url('/website/Templates/Global/Images/KiyOh_john_middle.png');
+		background-repeat: repeat-y;	
+	}
+	
+	.KiyOhBottom{
+	    background: url('/website/Templates/Global/Images/KiyOh_john_bottom.png');
+	    background-repeat: no-repeat; 
+	    width: 192px;
+	    height: 7px;
+	    margin-left:  3px;
+	    *margin-left: 6px;
+	    margin-bottom: 10px;
+	}
+	
+	.KiyOhPicture{
+	    background: url('/website/Templates/Global/Images/KiyOh_window_map.png'); 
+	    width: 38px;
+	    height: 45px;
+	    margin-top: -55px;
+	    margin-left: 8px;
+	    position: absolute;
+	    float: left;
+	    z-index: 1;
+	    cursor: hand;
+	    cursor: pointer;
+	}
+	
+	.KiyOhOverallgrade{
+	    margin: 32px 14px 22px 10px;
+	    font-size: 20px;
+	    color: black;
+	    font-style:normal;
+	    line-height: 20px !important;
+	}
+	
+	.KiyOhContent{
+	    padding-left: 10px; 
+	    padding-right: 5px;  
+	    font-size: smaller;
+	}
+	/* Eind van KiyOh */	
+	
+	
+   .ShoppingCartBasket{
+        width:100%; 
+        margin-top: 10px; 
+        margin-bottom: 10px; 
+        text-align: center;
+        cursor: hand;
+        cursor: pointer;        
+   }
+   
+   .SCBasketLeft{
+        background-image: url('/website/Templates/Global/Images/ShoppingCarts/mand-left.png'); 
+        background-position: bottom; 
+        background-repeat: no-repeat;
+        width: 42px; 
+        height: 136px; 
+        float:left; 
+        margin-left: 5px;
+        position: relative;
+        cursor: hand;
+        cursor: pointer;
+   }
+   
+   .SCBasketMiddle{
+        background-image: url('/website/Templates/Global/Images/ShoppingCarts/mand-mid.png'); 
+        background-position: bottom center; 
+        background-repeat: no-repeat; 
+        width: 100px; 
+        height: 136px; 
+        float:left; 
+        margin-left:0px; 
+        margin-right: 0px; 
+        position: relative;
+        cursor: hand;
+        cursor: pointer;
+   }
+   
+   .SCBasketRight{
+        background-image: url('/website/Templates/Global/Images/ShoppingCarts/mand-right.png'); 
+        background-position: bottom; 
+        background-repeat: no-repeat; 
+        width: 42px; 
+        height: 136px; 
+        margin-right:5px;
+        float:left; 
+        position: relative;
+        cursor: hand;
+        cursor: pointer;
+   }
+   
+   .SCBasketContent{
+        position: relative; 
+        margin-top: 72px; 
+        overflow: hidden;
+        text-align: center;
+        cursor: hand;
+        cursor: pointer;
+   }
+   
+   .ShoppingCartTotal{
+        background-image: url('/website/Templates/Global/Images/ShoppingCarts/background.png'); 
+        background-position: 30px 0px;
+        background-repeat: no-repeat; 
+        text-align: left;
+   }

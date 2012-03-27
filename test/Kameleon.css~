@@ -1,0 +1,1196 @@
+
+body {
+	background-color: #f2f2f2;
+	text-align: center;
+	width: 100%;	
+	padding: 0;
+	margin: 0;		
+	font-family: Verdana;
+	font-size: 12px;
+	background-color: #F0F0F0;
+	
+							background-image: url(BackgroundStipShadowBlack.jpg);	
+			background-attachment: fixed;
+			background-repeat: repeat;
+			background-position: top center;	
+		
+}
+
+
+
+#Content a {
+	color: #255091;	
+	text-decoration: none;
+	font-weight: bold; 		
+	font-size: 12px;	
+}
+
+#Content a:hover {
+	color: #255091;		
+	text-decoration: underline;
+	font-weight: bold; 	
+	font-size: 12px;		
+}
+
+select {
+	font-family: Verdana;
+	font-size: 12px;	
+}
+
+h1 {
+    
+	color: #255091;
+    margin-top: 0px;
+}
+
+td {
+	
+	font-size: 12px;  	
+	color: #000000;
+}
+
+#Left div, #Right div {
+	line-height: 15px;
+	overflow: hidden;
+}
+
+.Banners, .Banners a {
+	line-height: 0px !important;
+}
+
+
+
+input {
+	height: 18px;
+	*height:20px;
+	vertical-align: middle;
+	font-size: 12px;  
+}
+
+.InputAmount, .BasketInputAmount, .InputSearch, #DiscountCoupon, InputDiscountCoupon {
+ 	border: 1px solid #404040;
+}
+
+form {
+	margin: 0;
+}
+
+#Main {
+	width: 100%;
+}
+
+#Container {	
+	clear: both;
+	width: 1000px;
+	margin: auto;
+	text-align: left;
+}
+
+#Top {
+	font-size: 0px;
+	width: 100%; 
+    	background-color: #FFFFFF;
+    	text-align: center;
+						background-image: url(BackgroundStipShadowBlack.jpg);	
+			background-attachment: fixed;
+			background-repeat: repeat-y;
+			background-position: top center;
+			
+	}
+
+#TopContent {
+	font-size: 0px;
+	width: 1000px;
+	text-align: left;
+	margin: auto;	
+}
+
+#Ad {
+	padding-top: 9px;
+	font-size: 0px;
+    line-height: 0px;
+	text-align: center;
+}
+
+#ButtonBar {
+	
+		
+	
+	clear: both;
+	width: 100%;
+	
+	font-size: 13px;	
+	text-align: center;		
+}
+	#ButtonBar a {
+		color: #000000;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 13px;	
+	}
+	
+#ButtonBarContent {
+	
+							background-image: url(LimeButtonBar.jpg);
+								
+	
+	
+	
+	margin: auto;
+			padding-left: 20px;
+		width: 980px;
+		*width:1000px;
+		text-align: left;
+}
+
+.Button {
+	
+	margin-bottom: 11px;
+	display: inline-block;
+		height: 16px;
+	margin-top: 9px;
+		margin-right: 5px;
+}
+
+#ButtonBar .ButtonSelected {
+	color: #124E1C;
+}
+
+.ButtonSeperator1 {
+	margin-top: 8px;
+	margin-bottom: 11px;
+	width: 1px;
+	display: inline-block;
+	border-right: 1px solid #FFFFFF;
+}
+
+.ButtonSeperator2 {
+	display: inline-block;
+	width: 1px;
+}
+
+
+
+#Left {
+	padding-top: 20px;
+	padding-right: 10px;
+	clear: both;
+	float: left;
+	font-size: 12px;	
+		color: #000000;		
+}
+
+#Left a {
+	color: #909090;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#Right a {
+	color: #909090;
+	font-size: 12px;	
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#Left a:hover {
+	color: #909090;
+	font-size: 12px;
+	text-decoration: underline;
+	font-weight: normal;
+	
+}
+
+#Right a:hover {
+	color: #909090;
+	font-size: 12px;	
+	text-decoration: underline;
+	font-weight: normal;
+	
+}
+
+#Left .SelectedLink, #Right .SelectedLink,#Left .SelectedLink:hover, #Right .SelectedLink:hover{
+	font-size: 12px;
+	font-weight: bold;	
+	color: #255091;
+}
+
+
+#Left .WindowTop {
+				background-image: url(DarkBlueWindowTop.jpg);
+				background-repeat: repeat-x;
+	
+	width: 187px;
+	*width: 202px;
+	
+	
+	height: 23px;
+	*height: 30px;
+	color: #FFFFFF;
+	font-family: Verdana;
+	padding-top: 7px;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 15px;
+}
+
+#Left .WindowTop .TitleLink a {
+	font-weight: bold;	
+	text-decoration:none;
+	color: #FFFFFF;
+}
+#Left .WindowTop .TitleLink a:hover, #Right .WindowTop .TitleLink a:hover {
+	text-decoration:underline;
+}
+#Left .WindowTop .TitleLink a.SelectedLink, #Right .WindowTop .TitleLink a.SelectedLink {
+	color: #255091;
+}
+
+#Left .NoSubCategories {
+	color: #909090;
+	font-size: 12px;
+    margin-bottom: 8px;
+}
+#Right .NoSubCategories {
+	color: #909090;
+	font-size: 12px;
+    margin-bottom: 8px;
+}
+#Left .Window .WindowSubCategory {
+    border-bottom: 1px solid #909090;
+    padding-bottom:2px;
+	margin-bottom: 9px;
+}
+#Right .Window .WindowSubCategory {
+    border-bottom: 1px solid #909090;
+    padding-bottom:2px;
+	margin-bottom: 9px;
+}
+	
+#Right .WindowTop {
+				background-image: url(/website/Templates/Kameleon/Images/DarkBlueWindowTop.jpg);
+				background-repeat: repeat-x;
+	
+	width: 187px;
+	*width: 202px;
+	
+	
+	height: 23px;
+	*height: 30px;	
+	color: #FFFFFF;
+	font-family: Verdana;
+	padding-top: 7px;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 15px;
+}
+
+#Right .WindowTop .TitleLink a {
+	font-weight: bold;	
+	text-decoration:none;
+	color: #FFFFFF;
+}
+
+#Right .Window {			
+	background-color: #FFFFFF;
+	border: 1px solid #909090;;
+	
+	width: 170px;
+	*width: 202px; 
+	
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;			
+}
+
+#Left .Window {			
+	background-color: #FFFFFF;
+	border: 1px solid #909090;
+	
+	width: 170px;
+	*width: 202px; 
+	
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+			
+}
+
+#Left .HeightSpace {
+    height: 20px;
+        font-size: 0px;   
+    line-height: 0px;
+    width: 10px;
+}
+
+#Right .HeightSpace {
+    height: 20px;
+        font-size: 0px;
+    line-height: 0px;
+    padding: 0px;
+    border:0px;
+    width: 10px;   
+}
+
+.WindowTitle {
+	font-weight: bold;
+	margin-bottom: 8px;	
+}
+
+.SubCategories {
+	margin-left: 20px;	
+	margin-bottom: 8px;		
+}
+
+#Right .LinkButton {	
+	width: 100%;
+	border-bottom: 1px solid #909090;
+	margin-bottom: 9px;
+	padding-bottom: 3px;
+}
+
+#Left .LinkButton {	
+	width: 100%;
+	border-bottom: 1px solid #909090;
+	margin-bottom: 9px;
+	padding-bottom: 3px;
+}
+
+
+.ContentWindow {
+	background-color: #FFFFFF;
+	border: 1px solid #909090;
+	
+	
+	width: 536px;
+	*width: 576px;
+
+	
+	
+	    padding: 10px 20px 10px 20px;
+    	margin-bottom: 15px;
+}
+
+#Right {
+	padding-top: 20px;
+	float: left;
+		font-size: 12px;
+	color: #000000;	
+}
+
+#Content {
+	color: #000000;
+	padding-top: 20px;
+	float: left;
+	font-size: 12px;
+	
+		width: 586px;
+
+}
+
+.MaxWidth {	
+	
+	width: 528px;
+	*width: 526px;
+	/*width: 528px; */
+	
+
+	
+}
+
+fieldset{
+	
+	
+	width: 508px;
+	*width: 528px;
+	
+	
+	
+	border: 1px solid #404040;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+legend {
+	font-size: 
+	font-size: 12px;  
+	padding: 3px;
+	border: 0px;
+	color: #404040;
+}
+
+.Offer{
+	width: 100%;
+	text-align: center;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+.OfferOrgPrice {			
+	text-decoration: line-through;
+			
+}
+
+.OfferPrice {
+	font-weight: bold;
+	font-size: 16px;
+	color: #f81212;
+}
+
+#Footer {
+	clear: both;
+	width: 100%;
+	height: 20px;	
+	text-align: center;
+	padding: 0px;
+}
+
+#FooterContent {
+	width: 500px;
+	margin: auto;
+	text-align: left;
+	font-size: 10px;
+	padding: 0px;
+	color: black;
+}
+
+.BottomLineText, #Footer a{
+	color: black;
+	font-size: 10px;
+}
+
+
+#Right .BestSellerCount {
+	clear: both;
+	float: left;	
+	width: 20px; 
+	font-size: 12px	border-bottom: 1px solid #909090;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	margin-bottom: 5px;
+}
+
+#Right .BestSellerContent {
+	float: left;
+	width: 140px; 
+	border-bottom: 1px solid #909090;
+	padding-bottom: 4px;
+	margin-bottom: 5px;
+	padding-top: 4px;
+}
+
+#Left .BestSellerCount {
+	clear: both;
+	float: left;	
+	width: 20px; 
+	border-bottom: 1px solid #909090;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	margin-bottom: 5px;
+}
+
+#Left .BestSellerContent {
+	float: left;
+	width: 140px; 
+	border-bottom: 1px solid #909090;
+	padding-bottom: 4px;
+	margin-bottom: 5px;
+	padding-top: 4px;
+}
+
+/*
+
+	Overschrijf standaard stijlen 
+*/
+
+.StandardButton {
+	vertical-align: middle;
+	background-color: #F0F0F0;
+	padding: 2px;
+	height: 16px;
+	*height:20px;
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #606060;
+	border: 1px solid #404040;
+	font-weight: bold;	
+	display: inline-block;
+    cursor: pointer; 
+	cursor: hand; 	
+}
+
+
+
+#Content .StandardButton a, #Content a.StandardButton, #Left a.StandardButton, #Right a.StandardButton, #Left .StandardButton a, #Right .StandardButton a
+{
+	color: #606060;	
+	font-weight: bold;
+}
+
+#Content .StandardButton a:hover, #Content a:hover.StandardButton, #Left a:hover.StandardButton, #Right a:hover.StandardButton, #Left .StandardButton a:hover, #Right .StandardButton a:hover
+ {
+	color: #606060;	
+	font-weight: bold;
+	text-decoration: underline;	
+}
+	
+.HomeProductProposalOrgPrice {
+	font-size: 10px;
+	margin-bottom: 5px;
+}
+
+.HomeProductProposalPrice {
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.HomeProductProposalName {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.HomeProductProposalName2 {
+/*	margin-top: 20px;
+	margin-bottom: 15px; */
+}
+
+.ProductContainer, .ProductContainerPhotoList2 {
+	border: 0px;	
+}
+
+.ProductContainerBig {
+	border: 0px;	
+}
+
+.ProductList_Header {
+  	font-weight: bold;
+  	height: 23px;
+  	background-color: #404040;  
+	color: #FFFFFF;  
+}
+	
+.ProductList_HeaderBackground {  	
+  
+}
+
+.ProductList_TDPhoto {
+	padding-top: 15px;
+  	cursor: pointer; 
+	cursor: hand; 
+}
+
+.ProductList_TDDescription {
+	padding-top: 15px;
+ 	cursor: pointer; 
+	cursor: hand; 
+}
+
+.ProductList_TDPrice {
+	padding-top: 15px;
+  	cursor: pointer; 
+	cursor: hand; 
+	
+}
+
+.ProductList_ProductAmount {
+  	
+}
+
+.ProductList_ProductPrice {
+	font-weight: bold;
+}
+
+.ProductList_ProductOrgPrice {
+	text-decoration: line-through;
+}
+
+.ProductList_ProductPiece{
+  
+}
+
+.ProductList_Footer {
+	border-top: 1px solid #000000;
+}
+
+.ProductList_ProductTitle{
+  	font-weight: bold;
+	color: #255091;
+	text-decoration: none; 
+}
+
+
+
+.ProductList_ProductDescription{
+	color: #255091;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.ProductList_StockPosition {
+	color: #000000;	
+	font-size: 12px;  
+}
+
+.ProductList_Orderbutton {
+  	font-weight: bold;
+  	text-decoration: none;
+  	color: #7e7e7e;
+}
+
+.ProductList_NoProducts {
+  	color: #A0A0A0;
+  	font-weight: bold;
+}
+
+
+
+/*
+	CategorieList
+*/
+
+.CategoryList_Container {  	
+	float: left;
+}
+
+.CategoryList_Photo {
+	border-top: 1px solid #404040;
+	border-left: 1px solid #404040;
+	border-right: 1px solid #404040;
+  	cursor: pointer; 
+	cursor: hand; 
+	text-align: center;
+	width: 120px;
+	*width: 122px;
+}
+
+.CategoryList_TitleBar {
+	border-bottom: 1px solid #404040;
+	border-left: 1px solid #404040;
+	border-right: 1px solid #404040;
+	font-weight: bold;
+	color: white;    
+	padding: 2px;
+	padding-top: 6px;
+	cursor: pointer; 
+	cursor: hand; 
+	height: 46px;
+	text-align: center;
+	width: 116px;
+	*width: 122px;
+}
+
+
+
+.CategoryList_Area {
+  	padding-left: 20px;  
+}
+
+/*
+	ShowProduct
+*/
+
+.ShowProduct_Title {
+  	padding-left: 0px;
+  	font-weight: bold;
+  	color: #7e7e7e;
+  	border-bottom: 1px solid #878787;		  	
+	font-size: 12px;  ;
+  	padding-bottom: 2px;
+
+}
+
+.ShowProduct_OrgPrice {
+  	text-decoration: line-through;
+	color: #000000; 
+	
+	font-size: 12px;  
+}
+
+.ShowProduct_Price {
+  	font-weight: bold;
+	font-size: 12px;  
+}
+
+.ShowProduct_StockPosition {
+  	color: #000000;
+  	font-size: 11px;
+  	font-style: italic;
+}
+
+.ShowProduct_FieldName {
+	font-weight: bold;
+}
+
+.ShowProduct_PhotoElement {
+  	float: right; 
+	cursor: pointer; 
+	cursor: hand; 
+	padding: 5px;
+	border: 1px solid #404040;
+} 
+
+.ShowProduct_Photo {
+  	border: 1px solid #404040;
+}
+
+.ShowProduct_EnlargePhotoLink {
+	font-weight: normal;
+	font-size: 11px;
+	color: #606060;
+	text-decoration: none;
+}
+
+.ShowProduct_EnlargePhotoLink:hover {
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+.ShowProduct_BigPhotoElement{
+  	cursor: pointer; 
+	cursor: hand; 
+	padding: 8px;
+	border: 1px solid #8A8A8A;
+}
+
+.ShowProduct_BigPhoto {
+  	border: 1px solid #8A8A8A;
+}
+
+/*
+	Basket classes
+*/
+
+.OrderProcesPathBlockSelected{    
+    background-color: #404040; 
+    color: #FFFFFF;   
+}
+
+.OrderProcesPathBlockNotSelected{    
+    background-color: #FFFFFF; 
+    color: #404040;      
+}
+
+.OrderProcesPathTextSelected{
+    color: #404040;
+    border-right: 1px solid #404040;
+}
+
+.OrderProcesPathTextSelectedLast{
+    color: #404040;
+}
+
+.OrderProcesPathTextNotSelected{    
+    border-right: 1px solid #404040; 
+}
+
+
+.Basket_HeaderAmount {
+	color: #FFFFFF;
+  	text-align: center;
+	font-weight: bold; 
+	height: 23px;
+	background-color: #404040;  
+}
+
+.Basket_HeaderPhoto {
+  	color: #FFFFFF;
+  	text-align: center;
+	font-weight: bold; 
+	background-color: #404040;
+}
+
+.Basket_HeaderProduct {
+  	color: #FFFFFF;
+  	text-align: left;
+	font-weight: bold; 
+	background-color: #404040;
+}
+
+.Basket_HeaderTotal {
+  	color: #FFFFFF;
+  	text-align: right;
+	font-weight: bold; 
+	background-color: #404040;
+}
+
+.Basket_Amount { 
+	border-bottom: 1px solid #404040; 
+	border-right: 1px solid #404040; 
+	
+}
+
+.Basket_Photo {   
+	border-bottom: 1px solid #404040;
+	border-right: 1px solid #404040;  
+}
+
+.Basket_Product { 
+	border-bottom: 1px solid #404040; 
+	border-right: 1px solid #404040; 
+}
+
+.Basket_Total {
+	font-weight: bold;
+	border-bottom: 1px solid #404040; 
+}
+
+/*
+	Klantgegevens classes
+*/
+
+.CustomerDetails_Title {
+  	padding-left: 0px;
+  	font-weight: bold;
+  	color: #7e7e7e;
+  	border-bottom: 1px solid #878787;
+	font-size: 12px;  ;
+  	padding-bottom: 2px;
+}
+
+/* 
+	Pagina classes
+*/
+
+.GuestbookTop {
+  	border: 1px solid #404040;
+  	width: 90%;
+	background-color: #404040;	
+  	color: #FFFFFF;
+  	font-weight: bold;
+  	padding: 2px; 
+}
+
+.GuestbookBottom {
+	border: 1px solid #404040;
+	border-top: 0px;
+	width: 90%;  
+	padding: 2px;
+	padding-bottom: 2px;
+}
+
+.GuestbookText {
+  	padding: 8px;  
+}
+
+.GuestbookDetails {
+  	border-top: 1px solid #404040;  
+}
+
+.CalendarTop {
+  	border: 1px solid #404040;
+  	width: 90%;
+  	background-color: #404040;
+  	color: #FFFFFF;
+  	font-weight: bold;
+  	padding: 2px; 
+}
+
+.CalendarBottom {
+  	border: 1px solid #404040;
+	border-top: 0px;
+	width: 90%;  
+	padding: 2px;
+	padding-bottom: 2px;
+}
+
+.CalendarText {
+  	padding: 8px;  
+}
+
+.FAQCategory {
+  	padding-left: 0px;
+  	font-weight: bold;
+  	color: #404040;
+  	border-bottom: 1px solid #404040;		  	
+	font-size: 12px;  ;
+  	padding-bottom: 2px;	  
+}
+
+.FAQQuestion {
+  	font-weight: bold;
+	padding-left: 10px;  
+	padding-bottom: 4px;
+	cursor: pointer; 
+	cursor: hand;
+	color: #000000;
+}
+
+.FAQAnswer {
+  	padding-top: 6px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	color: #000000;
+	font-style: italic;
+}
+
+.PollQuestion {
+  	padding-left: 0px;
+  	font-weight: bold;
+  	color: #404040;
+  	border-bottom: 1px solid #404040;	  	
+	font-size: 12px;  
+  	padding-bottom: 2px;
+}
+
+.PollBar {
+  	background-color: #404040;
+	border-bottom: 1px solid #404040;  
+}
+
+.NewsPageDate {
+  	color: #000000;  
+}
+
+.NewsPageTitle {
+  	font-weight: bold;
+  	color: #000000;
+}
+
+.LinkPageCategory {
+  	padding-left: 0px;
+  	font-weight: bold;
+  	color: #404040;
+  	border-bottom: 1px solid #404040;	  	
+	font-size: 12px;  
+  	padding-bottom: 2px;  
+}
+
+.LinkPageLink {
+	background-image: none;
+  	background-repeat: no-repeat;
+  	background-position: 0px;
+  	padding-left: 0px;  
+}
+
+.BannerBar {
+	margin-bottom: 5px;
+	padding-left: 0px;
+  	font-weight: bold;
+  	color: #404040;
+  	border-bottom: 1px solid #404040;	 	
+	font-size: 12px;  
+  	padding-bottom: 2px;  
+	
+}
+
+.OrderFields{
+	
+	font-size: 12px;  
+	border: 1px solid black;
+	
+}
+/*
+	TWYP
+*/
+
+.table {	
+	font-size: 12px;  
+	font-family: 		Arial;
+}
+
+td.ncolh1 	{
+ 	background-color: 	#FFFFFF;
+	color: 				#000000;
+	border-bottom:		#7e7e7e 1px solid;
+	font-weight: 		bold;
+	font-size: 			1.4em;
+	}
+	
+td.ncoltxtl 		{
+ 	font-size:			1.0em;
+ 	background-color: 	#FFFFFF;
+	color: 				black; 
+	text-align: 		right; 
+	font-weight:		bold;
+	}
+	 
+td.ncoltxtl2 		{
+ 	background-color : 	#FFFFFF;
+	color : 			black; 
+	text-align : 		right; 
+	font-weight :		bold;
+	}
+	
+td.ncoltxtr 		{
+ 	font-size:			1.0em;
+ 	background-color : 	#FFFFFF;
+	color : 			black; 
+	text-align : 		left;
+}
+
+td.ncoltxtc 		{
+	background-color : 	#FFFFFF;
+	color : 			black; 
+	text-align : 		center; 
+	font-weight :		bold;
+	}
+
+td.ncoltxtmessage 	{
+ 	background-color : 	#FFFFFF;
+	color : 			#ffffcc; 
+	text-align : 		left; 
+	font-weight: 		bold;
+}
+	
+td.ncolinput 		{
+
+}
+
+td.ncolline1 		{
+	color : 			#000000;
+	font-size: 			1.1em;
+	}
+	
+td.ncolline2 		{
+	color : 			black;
+	font-size: 			1.1em;
+	}
+	
+
+
+td.ncollogol	 	{
+ 	background-color : 	#FFFFFF ;
+	color : 			black; 
+	text-align : 		right; 
+	font-weight :		bold;
+	}
+
+td.ncollogor 		{
+	background-color: 	#FFFFFF ;
+	color: 				black; 
+	text-align: 		left; 
+	font-weight:		bold;
+	}
+
+td.ncollogoc 		{
+ 	background-color :	#FFFFFF ;
+	color : 			black; 
+	text-align : 		center; 
+	font-weight :		bold;
+	}
+
+table.ncoltable1	{
+ 	background-color : 	#FFFFFF ; 
+ 	border: 			#7e7e7e 1px solid;
+	}
+
+table.ncoltable2 	{
+ 	background-color : 	#FFFFFF ; 
+	border: 			#7e7e7e 1px solid;
+	}
+
+table.ncoltable3 	{
+ 	background-color : 	#FFFFFF ; 
+	border: 			#7e7e7e 1px solid;
+	
+	}
+
+table.ncoltable1, table.ncoltable2, table.ncoltable3 {
+	padding: 			10px;
+	margin-bottom: 		10px;
+}
+
+/*
+	Gastenboek
+*/
+
+
+.Next {color: #7e7e7e; text-decoration: underline; }
+.Previous {color: #7e7e7e; text-decoration: underline; }
+
+.Orderfields {width: 222px;	}
+
+
+/*
+	User Login
+*/
+.UL_Header {
+ 	padding-left: 0px;
+  	font-weight: bold;
+  	color: #7e7e7e;
+  	border-bottom: 1px solid #878787;	
+	font-size: 12px;  
+  	padding-bottom: 2px;	
+}
+
+.UL_Affected_Row {
+	color: #7e7e7e;
+	font-weight: bold;
+}
+
+.UL_NonAffected_Row {
+	color: #000000;
+	font-weight: normal;
+}
+
+.UL_INFO {
+  	font-weight: bold;
+  	text-decoration: none;
+  	color: #7e7e7e;
+
+	cursor: pointer;
+	cursor: hand;
+}
+
+.MorePagesButton {
+	border-color: #404040;	
+}
+
+/* Seach Form */
+.SearchFormLabel {
+	font-weight: bold;
+	color: #404040;  
+	/*background-color: #404040;*/
+}
+
+.SearchFormData {
+}
+
+
+.ShowProductPriceBlock{    
+    background-color: #404040; 
+    color: #FFFFFF;
+}
+
+.ShowProductQuickOrderPrice {    
+    color: #404040;   
+}
+
+.QuickOrderTitle{     
+    color: #404040;
+       
+}
+
+.QuickOrderAmount {     
+    color: #404040;
+}
+
+.ShoppingCart, .ShoppingCart table, .ShoppingCart td {
+	font-size: 10px;	
+}
+
+.ShoppingCart td.BasketSmallButton {
+	font-size: 12px;	
+}
+
+.ShoppingCart {
+	cursor: pointer; 
+	cursor: hand;
+    width: 100%;
+}
+
+.Border_1_Solid_geel { border:1px solid #404040;}
+.Border_1_Solid_blauw { border:1px solid #404040;}
+.Border_1_Solid_grijs { border:1px solid #404040;}
+.Border_1_Solid_groen { border:1px solid #404040;}
+.Border_1_Solid_oranje { border:1px solid #404040;}
+.Border_1_Solid_paars { border:1px solid #404040;}
+.Border_1_Solid_rood { border:1px solid #404040;}
+
+
+.container {
+    color: #000000;   
+}
+

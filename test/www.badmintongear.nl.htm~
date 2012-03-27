@@ -1,0 +1,372 @@
+<!-- Palm .41 -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" lang="nl">
+    <head>
+        <title> BadmintonGear.nl</title> 
+        <link rel="stylesheet" type="text/css" href="http://12609.static.securearea.eu/website/Templates/Global/CSS/Global.css" />
+        <link rel="stylesheet" type="text/css" href="http://12609.static.securearea.eu/Plugins/jQuery/css/website/jquery-ui-1.8.9.custom.css" />			
+        <link rel="stylesheet" type="text/css" href="http://12609.static.securearea.eu/Plugins/Slider/demo.css" />
+        <link rel="stylesheet" href="http://12609.static.securearea.eu/Global/Files/Website/12609/CSS/Kameleon.css" type="text/css" />
+    </head>
+    <body>
+        <div id="Main">
+            <div id="Top"><div id="TopContent" onclick="document.location = '/'">
+                    <img src="http://12609.static.securearea.eu/Global/Files/CleanBB/12609_Header_nl.jpg" alt="Header" />
+                </div></div>
+
+            <div id="ButtonBar">
+                <div id="ButtonBarContent">
+                    <span class="Button">
+                        <a href="" class="ButtonSelected" >Home</a>
+                    </span>
+                    <span class="ButtonSeperator1">&nbsp;</span>
+                    <span class="ButtonSeperator2">&nbsp;</span>
+                    <span class="Button">
+                        <a href="">Account Login</a>
+                    </span>
+                    <span class="ButtonSeperator1">&nbsp;</span>
+                    <span class="ButtonSeperator2">&nbsp;</span>
+                    <span class="Button">
+                        <a href="">Contact</a>
+                    </span>
+                    <span class="ButtonSeperator1">&nbsp;</span>
+                    <span class="ButtonSeperator2">&nbsp;</span>
+                    <span class="Button">
+                        <a href="">Algemene Voorwaarden</a>
+                    </span>
+                    <span class="ButtonSeperator1">&nbsp;</span>
+                    <span class="ButtonSeperator2">&nbsp;</span>
+                    <span class="Button">
+                        <a href="" >Bestellen Zonder Verzendkosten</a>
+                    </span>
+                    <span class="ButtonSeperator1">&nbsp;</span>
+                    <span class="ButtonSeperator2">&nbsp;</span>
+                    <span class="Button">
+                        <a href="" >Bespan Service</a>
+                    </span>
+                    <span class="ButtonSeperator1">&nbsp;</span>
+                    <span class="ButtonSeperator2">&nbsp;</span>
+                    <span class="Button">
+                        <a href="" >Nieuwsbrief</a>
+                    </span>
+                </div>
+            </div>
+            <div id="Container">
+                <div id="Left"><!--
+                    <div class="WindowTop">Zoeken</div>
+ 
+
+
+
+                    <form action="http://www.badmintongear.nl/website/index.php" method="get" id="QuickSearch">
+                        <div class="Window">
+                           
+                            <span>Zoekterm(en)</span><br />
+                            <input type="text" name="QS_KeyWord" class="QS_Input" style="font-size:12px;" onkeypress="return submitByEnterOnFormId('QuickSearch',event);" value=""/><br />
+
+                            
+                            <div id="CustomMenus_QS">
+                            </div>	
+                            <input type="hidden" id="QS_CustomMenuValues" name="QS_CustomMenuValues" value="" />
+                            <div style="float: right; margin-top: 5px;">
+                                <span class="StandardButtonLeft"></span><span onclick="defineCustomMenus();document.getElementById('QuickSearch').submit();" class="StandardButton">Zoeken</span><span class="StandardButtonRight"></span>
+                            </div>				
+                            <input type="hidden" name="Show" value="Search" />
+                            <input type="hidden" name="SearchEntry" value="QuickSearch" />
+                            <div style="clear:both"></div>
+                        </div>
+
+                    </form>
+                    <div class="HeightSpace"></div>
+                    <div class="WindowTop">Categoriestructuur</div>
+                    <div class="Window">
+                        <div class="LinkButton"><a href="">
+                                Bespan Accessoires
+                            </a></div>
+                        <div class="LinkButton"><a href="/Badminton-Accessories-Accessoires">
+                                Accessoires
+                            </a></div>
+                        <div class="LinkButton"><a href="/Badminton-Injury-Prevention-Treatment-Blessures">
+                                Blessures
+                            </a></div>
+                        <div class="LinkButton"><a href="/Badminton-Clothing-Kleding">
+                                Kleding
+                            </a></div>
+                        <div class="LinkButton"><a href="/Badminton-Rackets">
+                                Rackets
+                            </a></div>
+                        <div class="LinkButton"><a href="/ROZE-PAARS-COLLECTIE-PINK-PURPLE-COLLECTION">
+                                ROZE & PAARS COLLECTIE
+                            </a></div>
+                        <div class="LinkButton"><a href="/Sale-Occasions">
+                                Sale & Occasions
+                            </a></div>
+                        <div class="LinkButton"><a href="/Badminton-Shoes-Schoenen">
+                                Schoenen
+                            </a></div>
+                        <div class="LinkButton"><a href="/Badminton-Shuttles">
+                                Shuttles
+                            </a></div>
+                        <div class="LinkButton"><a href="/Badminton-Strings-Snaren">
+                                Snaren
+                            </a></div>
+                        <div class="LinkButton"><a href="/Sport-Food-Drinks-Sportvoeding">
+                                Sportvoeding
+                            </a></div>
+                        <div class="LinkButton"><a href="/Badminton-Bags-Tassen">
+                                Tassen
+                            </a></div>
+                        <div class="LinkButton"><a href="/Badminton-Club-Material-Verenigingsmateriaal">
+                                Verenigingsmateriaal
+                            </a></div>
+                    </div>
+                    <div class="HeightSpace"></div>-->
+                </div>
+                <div id="Content">
+                 <!--   <div class="ContentWindow">
+                        <h1>Aanbiedingen voor de feestdagen (op=op):</h1>
+                        <div style="width: 100%">
+                            <div style="text-align: center; width: 100%">
+                                <span class="ProductContainer">
+                                    <span class="HomeProductProposalImage">
+                                        <a class="preview" href="">
+                                            <img style="margin-top: 0px" width="90" height="90" src="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/Small/6357284.jpg" alt="Yonex-BAG10026P-Pro-Racket-Bag" />
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalName">
+                                        <a href="/Webwinkel-Product-5382286/Yonex-BAG10026P-Pro-Racket-Bag.html">
+                                            Yonex BAG100..
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalOrgPrice">
+
+                                        &euro; 74,95
+
+                                    </span>
+
+                                    <span class="HomeProductProposalPrice">
+                                        &euro; 59,95
+                                    </span>
+                                </span>
+                                <span class="ProductContainer">
+                                    <span class="HomeProductProposalImage">
+                                        <a class="preview" href="/Webwinkel-Product-5382287/Yonex-BAG10029P-Pro-Racket-Bag.html" title="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/MaxContent/6357290.jpg">
+                                            <img style="margin-top: 0px" width="90" height="90" src="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/Small/6357290.jpg" alt="Yonex-BAG10029P-Pro-Racket-Bag" />
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalName">
+                                        <a href="/Webwinkel-Product-5382287/Yonex-BAG10029P-Pro-Racket-Bag.html">
+                                            Yonex BAG100..
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalOrgPrice">
+
+                                        &euro; 84,95
+
+                                    </span>
+
+                                    <span class="HomeProductProposalPrice">
+                                        &euro; 69,95
+                                    </span>
+                                </span>
+                                <span class="ProductContainer">
+                                    <span class="HomeProductProposalImage">
+                                        <a class="preview" href="/Webwinkel-Product-5382137/Yonex-BAG7126EX-Racket-Bag.html" title="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/MaxContent/6356970.jpg">
+                                            <img style="margin-top: 0px" width="90" height="90" src="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/Small/6356970.jpg" alt="Yonex-BAG7126EX-Racket-Bag" />
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalName">
+                                        <a href="/Webwinkel-Product-5382137/Yonex-BAG7126EX-Racket-Bag.html">
+                                            Yonex BAG712..
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalOrgPrice">
+
+                                        &euro; 39,95
+
+                                    </span>
+
+                                    <span class="HomeProductProposalPrice">
+                                        &euro; 29,95
+                                    </span>
+                                </span>
+                                <span class="ProductContainer">
+                                    <span class="HomeProductProposalImage">
+                                        <a class="preview" href="/Webwinkel-Product-5382140/Yonex-BAG7129EX-Racket-Bag.html" title="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/MaxContent/6356975.jpg">
+                                            <img style="margin-top: 0px" width="90" height="90" src="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/Small/6356975.jpg" alt="Yonex-BAG7129EX-Racket-Bag" />
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalName">
+                                        <a href="/Webwinkel-Product-5382140/Yonex-BAG7129EX-Racket-Bag.html">
+                                            Yonex BAG712..
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalOrgPrice">
+
+                                        &euro; 49,95
+
+                                    </span>
+
+                                    <span class="HomeProductProposalPrice">
+                                        &euro; 34,95
+                                    </span>
+                                </span>
+                                <span class="ProductContainer">
+                                    <span class="HomeProductProposalImage">
+                                        <a class="preview" href="/Webwinkel-Product-5834386/Yonex-BAG8026EX-Black-Magenta-Racket-Bag.html" title="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/MaxContent/10154723.jpg">
+                                            <img style="margin-top: 0px" width="90" height="90" src="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/Small/10154723.jpg" alt="Yonex-BAG8026EX-Black-Magenta-Racket-Bag" />
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalName">
+                                        <a href="/Webwinkel-Product-5834386/Yonex-BAG8026EX-Black-Magenta-Racket-Bag.html">
+                                            Yonex BAG802..
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalOrgPrice">
+
+                                        &euro; 54,95
+
+                                    </span>
+
+                                    <span class="HomeProductProposalPrice">
+                                        &euro; 39,95
+                                    </span>
+                                </span>
+                                <span class="ProductContainer">
+                                    <span class="HomeProductProposalImage">
+                                        <a class="preview" href="/Webwinkel-Product-5382167/Yonex-BAG8026EX-Racket-Bag.html" title="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/MaxContent/7055939.jpg">
+                                            <img style="margin-top: 0px" width="90" height="90" src="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/Small/7055939.jpg" alt="Yonex-BAG8026EX-Racket-Bag" />
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalName">
+                                        <a href="/Webwinkel-Product-5382167/Yonex-BAG8026EX-Racket-Bag.html">
+                                            Yonex BAG802..
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalOrgPrice">
+
+                                        &euro; 54,95
+
+                                    </span>
+
+                                    <span class="HomeProductProposalPrice">
+                                        &euro; 39,95
+                                    </span>
+                                </span>
+                                <span class="ProductContainer">
+                                    <span class="HomeProductProposalImage">
+                                        <a class="preview" href="/Webwinkel-Product-5834408/Yonex-BAG8029EX-Black-Magenta-Racket-Bag.html" title="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/MaxContent/10154738.jpg">
+                                            <img style="margin-top: 0px" width="90" height="90" src="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/Small/10154738.jpg" alt="Yonex-BAG8029EX-Black-Magenta-Racket-Bag" />
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalName">
+                                        <a href="/Webwinkel-Product-5834408/Yonex-BAG8029EX-Black-Magenta-Racket-Bag.html">
+                                            Yonex BAG802..
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalOrgPrice">
+
+                                        &euro; 59,95
+
+                                    </span>
+
+                                    <span class="HomeProductProposalPrice">
+                                        &euro; 44,95
+                                    </span>
+                                </span>
+                                <span class="ProductContainer">
+                                    <span class="HomeProductProposalImage">
+                                        <a class="preview" href="/Webwinkel-Product-5382174/Yonex-BAG8029EX-Racket-Bag.html" title="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/MaxContent/7055942.jpg">
+                                            <img style="margin-top: 0px" width="90" height="90" src="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/Small/7055942.jpg" alt="Yonex-BAG8029EX-Racket-Bag" />
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalName">
+                                        <a href="/Webwinkel-Product-5382174/Yonex-BAG8029EX-Racket-Bag.html">
+                                            Yonex BAG802..
+                                        </a>
+                                    </span>
+                                    <span class="HomeProductProposalOrgPrice">
+                                        &euro; 59,95
+                                    </span>
+                                    <span class="HomeProductProposalPrice">
+                                        &euro; 44,95
+                                    </span>
+                                </span>
+                            </div>
+                            <div style="clear:both;"></div>
+                            </div>
+                        <div class="clear"></div>					
+                       
+                        <div style="clear: both; font-size: 0px; height: 0px"></div>
+                    </div>	
+                    <br /><br />
+                    <br />-->
+                </div>
+                <div id="Right">
+                 <!--   <div class="WindowTop">Choose your language</div>
+                    <div class="Window">
+                        <a href="">
+                            <img src="http://12609.static.securearea.eu/website/Images/Languages/nl.gif" alt="nl" title="nl" />
+                        </a>
+                        <a href="">
+                            <img src="http://12609.static.securearea.eu/website/Images/Languages/en.gif" alt="en" title="en" />
+                        </a>
+                    </div>
+                    <div class="HeightSpace"></div>
+
+                    <div class="Window">
+                        <div class="WindowTitle">Winkelwagen</div>
+                        <a href="/website/index.php?Show=WebShopBasket">
+                            <strong>
+                                <span id="idNumberOfProductsInBasket">
+                                    0
+                                </span>
+                            </strong>&nbsp;Product(en) in winkelwagen 
+                        </a>
+                    </div>
+                    <div class="HeightSpace"></div>			
+                    <div class="WindowTop">In de aanbieding</div>
+                    <div class="Window">
+                        <div class="Offer" onclick="document.location = '/Webwinkel-Product-6575500/Yonex-T-Shirt-16118-Red.html'">
+                            <a href="/Webwinkel-Product-6575500/Yonex-T-Shirt-16118-Red.html" class="WindowTitle">
+                                Yonex T-Shirt 16118 Red
+                            </a>
+                            <br /><br />
+                            <img src="http://12609.static.securearea.eu/Global/Files/Website/12609/ProductPhotos/Small/9789960.jpg" alt="Yonex-T-Shirt-16118-Red" />
+                            <br /><br />
+                            <span class="OfferOrgPrice">&euro; 29,95</span>&nbsp;&nbsp;<span class="OfferPrice">&euro; 24,95</span>
+                        </div>
+                    </div>
+                    <div class="HeightSpace"></div>
+                    <div class="WindowTop">Login</div>
+                    <div class="Window">
+                        <form action="https://badmintongear.securearea.eu/website/index.php?Show=WebShopUserLogin&amp;sid=abt1s0hepgh35atmo1llrvdf41" method="post" id="UL_Login" onsubmit="GA_linkByPost(this)">
+                            <p>
+                                <input type="hidden" name="UL_LOGIN" value="Y" />
+                                <input type="text" name="UL_USERNAME" size="26" style="font-size: 12px; width: 100%; margin-bottom: 3px" value="Gebruiker" onclick="this.value=''" /><br />
+                                <input type="password" name="UL_PASSWORD" size="26" style="font-size: 12px; width: 100%" value="Wachtwoord" onclick="this.value=''" onkeypress="return submitByEnterOnFormId('UL_Login',event);" />
+                            </p>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr style="height: 30px;">
+                                    <td>
+                                        <span class="StandardButtonLeft WindowNewUserButtonLeft"></span><span onclick="document.location = 'https://badmintongear.securearea.eu/website/index.php?Show=WebShopUserLogin&amp;First=true&amp;sid=abt1s0hepgh35atmo1llrvdf41';" class="StandardButton WindowNewUserButton"> Nieuwe klant </span><span class="StandardButtonRight WindowNewUserButtonRight"></span>
+                                    </td>
+                                    <td align="right">
+
+                                        <span class="StandardButtonLeft WindowLoginButtonLeft"></span><span onclick="document.getElementById('UL_Login').submit()" class="StandardButton WindowLoginButton"> Login </span><span class="StandardButtonRight WindowLoginButtonRight"></span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                    <div class="HeightSpace"></div>
+                    <div class="Bannershtml" style="text-align: center; width: 202px; padding-bottom: 5px;"><div id="fb-root"></div>
+                        </div><div class="HeightSpace" ></div>				
+                    </div>
+                <div id="Footer"><div id="FooterContent"><div class="BottomLineText" style="float:right">Alle bedragen zijn&nbsp;inclusief&nbsp;BTW&nbsp; &nbsp;<a href="https://badmintongear.securearea.eu/onderhoud/" rel="external"><img src="http://12609.static.securearea.eu/website/Templates/BBStyle/Images/sleutelklein.gif" alt="" /></a></div><div class="BottomLineText" style="float:left">Powered by <a href="http://biedmeerwebwinkels.nl/" rel="external" title="Webwinkel beginnen">BiedMeer webwinkel</a></div></div></div>
+            -->
+                 </div>
+        </div>
+        <!--div style="height: 0px;"><img src="" width="0" height="0" alt="" id="StatsImage" /></div-->
+    </body>
+</html>

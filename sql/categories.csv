@@ -1,0 +1,3 @@
+INSERT INTO 'badmintongear'.'categories' ('categories_id','categories_image','parent_id','sort_order','date_added','last_modified')
+VALUES (27,'category_gadgets.png',0,100,'','');
+

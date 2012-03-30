@@ -44,8 +44,7 @@ define('HTML_PARAMS','dir="ltr" lang="nl"');
 define('CHARSET', 'iso-8859-1');
 
 // page title
-define('TITLE', 'Verander');
-define('TITLE', 'naar behoeven deze en bovenstaande regel');
+define('TITLE', 'Badmintongear administratie');
 
 // header text in includes/header.php
 define('HEADER_TITLE_TOP', 'Administratie');
@@ -65,6 +64,8 @@ define('BOX_HEADING_CONFIGURATION', 'Configuratie');
 define('BOX_CONFIGURATION_MYSTORE', 'Mijn winkel');
 define('BOX_CONFIGURATION_LOGGING', 'Logging');
 define('BOX_CONFIGURATION_CACHE', 'Cache');
+define('BOX_CONFIGURATION_ADMINISTRATORS', 'Administrators');
+define('BOX_CONFIGURATION_STORE_LOGO', 'Winkel Logo');
 
 // modules box text in includes/boxes/modules.php
 define('BOX_HEADING_MODULES', 'Modules');
@@ -74,7 +75,7 @@ define('BOX_MODULES_ORDER_TOTAL', 'Totaal bestelling');
 
 // categories box text in includes/boxes/catalog.php
 define('BOX_HEADING_CATALOG', 'Catalogus');
-define('BOX_CATALOG_CATEGORIES_PRODUCTS', 'Categorieën / Artikelen');
+define('BOX_CATALOG_CATEGORIES_PRODUCTS', 'Categorieï¿½n / Artikelen');
 define('BOX_CATALOG_CATEGORIES_PRODUCTS_ATTRIBUTES', 'Artikelopties');
 define('BOX_CATALOG_MANUFACTURERS', 'Fabrikanten');
 define('BOX_CATALOG_REVIEWS', 'Recensies');

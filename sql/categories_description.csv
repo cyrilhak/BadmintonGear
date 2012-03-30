@@ -1,0 +1,4 @@
+INSERT INTO 'badmintongear'.'categories_description' ('categories_id','language_id','categories_name')
+VALUES(27,1,'Test categorie');
+INSERT INTO 'badmintongear'.'categories_description' ('categories_id','language_id','categories_name')
+VALUES(27,2,'Test category');

@@ -58,6 +58,11 @@ define('HEADER_TITLE_TOP', 'Top');
 define('HEADER_TITLE_CATALOG', 'Catalog');
 define('HEADER_TITLE_LOGOFF', 'Log Off');
 define('HEADER_TITLE_LOGIN', 'Log In');
+define('HEADER_INFORMATION_CONTACT', 'Contact');
+define('HEADER_LICENCE_AGREEMENT', 'Licence agreement');
+define('HEADER_ORDERWITHOUT', 'Order without sending costs');
+define('HEADER_BESPAN_SERVICE', 'Service');
+define('HEADER_NEWSLETTER', 'Nieuwsbrief');
 
 // footer text in includes/footer.php
 define('FOOTER_TEXT_REQUESTS_SINCE', 'requests since');

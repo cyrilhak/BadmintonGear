@@ -41,7 +41,6 @@ body {
 #bodyContent {
     background-color: #ffffff;
     border: #000000;
-    //border: 1px solid #909090;
 }
 
 #header {
@@ -97,6 +96,16 @@ body {
     font-size: 11px;
     line-height: 1.5;
 }
+.contentWindow {
+    background-color: white;
+    border: 1px solid #909090;
+    width: 538px;
+    padding-left: 19px !important;
+    padding-right: 19px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
 
 .productListTable {
     padding: 5px;
@@ -122,10 +131,14 @@ body {
 
 h1 {
     font-size: 20px;
+    color: #255091;
     margin-bottom: 0;
     padding-bottom: 5px;
 }
-
+h2 {
+    color: #255091;
+    
+}
 img {
     border: 0;
 }

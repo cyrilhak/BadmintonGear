@@ -43,13 +43,13 @@
 
     $new_prods_content .= '</table>';
 ?>
-
+<div class="contentWindow">
   <h2><?php echo sprintf(TABLE_HEADING_NEW_PRODUCTS, strftime('%B')); ?></h2>
 
   <div class="contentText">
     <?php echo $new_prods_content; ?>
   </div>
-
+</div>
 <?php
   }
 ?>

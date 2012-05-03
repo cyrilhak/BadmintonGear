@@ -11,7 +11,7 @@
 */
 
 define('TEXT_MAIN', 'Deze tekst verschijnt standaard onder de tekst voor begroeting van de bezoeker.');
-define('TABLE_HEADING_NEW_PRODUCTS', 'Nieuw(e) artikel(en) voor %s');
+define('TABLE_HEADING_NEW_PRODUCTS', 'NU NIEUW IN HET ASSORTIMENT:');
 define('TABLE_HEADING_UPCOMING_PRODUCTS', 'Verwachte artikel(en)');
 define('TABLE_HEADING_DATE_EXPECTED', 'Datum');
 
@@ -31,11 +31,11 @@ if ( ($category_depth == 'products') || (isset($HTTP_GET_VARS['manufacturers_id'
   define('TEXT_SHOW', '<b>Toon:</b>');
   define('TEXT_BUY', 'Bestel \'');
   define('TEXT_NOW', '\' NU!');
-  define('TEXT_ALL_CATEGORIES', 'Alle categorieën');
+  define('TEXT_ALL_CATEGORIES', 'Alle categorieï¿½n');
   define('TEXT_ALL_MANUFACTURERS', 'Alle fabrikanten');
 } elseif ($category_depth == 'top') {
   define('HEADING_TITLE', 'Vul hier uw welkomsttekst in');
 } elseif ($category_depth == 'nested') {
-  define('HEADING_TITLE', 'Sub-categorieën');
+  define('HEADING_TITLE', 'Sub-categorieï¿½n');
 }
 ?>

@@ -49,20 +49,26 @@ define('LANGUAGE_CURRENCY', 'EUR');
 define('HTML_PARAMS','dir="LTR" lang="nl"');
 
 // charset for web pages and emails
-define('CHARSET', 'iso-8859-1');
+//define('CHARSET', 'iso-8859-1');
+define('CHARSET', 'utf-8');
 
 // page title
 define('TITLE', STORE_NAME);
 
 // header text in includes/header.php
 define('HEADER_TITLE_CREATE_ACCOUNT', 'Klantgegevens invoeren');
-define('HEADER_TITLE_MY_ACCOUNT', 'Uw klantgegevens');
+define('HEADER_TITLE_MY_ACCOUNT', 'Uw gegevens');
 define('HEADER_TITLE_CART_CONTENTS', 'Inhoud winkelwagen');
 define('HEADER_TITLE_CHECKOUT', 'Afrekenen');
 define('HEADER_TITLE_TOP', 'Hoofdpagina');
 define('HEADER_TITLE_CATALOG', 'Winkel');
 define('HEADER_TITLE_LOGOFF', 'Uitloggen');
 define('HEADER_TITLE_LOGIN', 'Inloggen');
+define('HEADER_INFORMATION_CONTACT', 'Contact');
+define('HEADER_LICENCE_AGREEMENT', 'Algemene voorwaarden');
+define('HEADER_ORDERWITHOUT', 'Bestellen Zonder Verzendkosten');
+define('HEADER_BESPAN_SERVICE', 'Bespan Service');
+define('HEADER_NEWSLETTER', 'Nieuwsbrief');
 
 // footer text in includes/footer.php
 define('FOOTER_TEXT_REQUESTS_SINCE', 'bezoeken sinds');
@@ -77,7 +83,7 @@ define('FEMALE_ADDRESS', 'Mevr.');
 define('DOB_FORMAT_STRING', 'dd/mm/jjjj');
 
 // categories box text in includes/boxes/categories.php
-define('BOX_HEADING_CATEGORIES', 'Categorieën');
+define('BOX_HEADING_CATEGORIES', 'Categorieï¿½n');
 
 // manufacturers box text in includes/boxes/manufacturers.php
 define('BOX_HEADING_MANUFACTURERS', 'Fabrikanten');

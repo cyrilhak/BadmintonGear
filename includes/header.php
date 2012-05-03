@@ -19,11 +19,11 @@
   <div id="storeLogo"><?php echo '<a href="' . tep_href_link(FILENAME_DEFAULT) . '">' . tep_image(DIR_WS_IMAGES . 'store_logo.png', STORE_NAME) . '</a>'; ?></div>
 
   <!--div id="headerShortcuts"-->
-<?php
- // echo tep_draw_button(HEADER_TITLE_CART_CONTENTS . ($cart->count_contents() > 0 ? ' (' . $cart->count_contents() . ')' : ''), 'cart', tep_href_link(FILENAME_SHOPPING_CART)) .
- //      tep_draw_button(HEADER_TITLE_CHECKOUT, 'triangle-1-e', tep_href_link(FILENAME_CHECKOUT_SHIPPING, '', 'SSL')) .
- //      tep_draw_button(HEADER_TITLE_MY_ACCOUNT, 'person', tep_href_link(FILENAME_ACCOUNT, '', 'SSL'));
-
+<?php 
+//  echo tep_draw_button(HEADER_TITLE_CART_CONTENTS . ($cart->count_contents() > 0 ? ' (' . $cart->count_contents() . ')' : ''), 'cart', tep_href_link(FILENAME_SHOPPING_CART)) .
+//       tep_draw_button(HEADER_TITLE_CHECKOUT, 'triangle-1-e', tep_href_link(FILENAME_CHECKOUT_SHIPPING, '', 'SSL')) .
+//       tep_draw_button(HEADER_TITLE_MY_ACCOUNT, 'person', tep_href_link(FILENAME_ACCOUNT, '', 'SSL'));
+//
 //  if (tep_session_is_registered('customer_id')) {
 //    echo tep_draw_button(HEADER_TITLE_LOGOFF, null, tep_href_link(FILENAME_LOGOFF, '', 'SSL'));
 //  }
@@ -42,50 +42,51 @@
             <div id="ButtonBar">
                 <div id="ButtonBarContent">
                     <span class="Button">
-                        <a href="http://www.badmintongear.nl" >
+                        <a href="http://192.168.56.101/badmintongear" >
                             Home
                         </a>
                     </span>
                     <span class="ButtonSeperator1">&nbsp;</span>
                     <span class="ButtonSeperator2">&nbsp;</span>
                     <span class="Button">
-                        <a href="https://badmintongear.securearea.eu/website/index.php?TreeItem=108922" onclick="GA_link('https://badmintongear.securearea.eu/website/index.php?TreeItem=108922'); return false;">
-                            Account Login
+                        <a href="account.php" onclick="GA_link('account.php'); return false;">
+                            <?php echo HEADER_TITLE_MY_ACCOUNT; ?>
                         </a>
                     </span>
                     <span class="ButtonSeperator1">&nbsp;</span>
                     <span class="ButtonSeperator2">&nbsp;</span>
                     <span class="Button">
                         <a href="https://badmintongear.securearea.eu/website/index.php?TreeItem=108674" onclick="GA_link('https://badmintongear.securearea.eu/website/index.php?TreeItem=108674'); return false;">
-                            Contact
+                            <?php echo HEADER_INFORMATION_CONTACT; ?>
                         </a>
                     </span>
                     <span class="ButtonSeperator1">&nbsp;</span>
                     <span class="ButtonSeperator2">&nbsp;</span>
                     <span class="Button">
                         <a href="http://www.badmintongear.nl/Webwinkel-Page-108672/Algemene-Voorwaarden.html" >
-                            Algemene Voorwaarden
+                            <?php echo HEADER_LICENCE_AGREEMENT; ?>
                         </a>
                     </span>
                     <span class="ButtonSeperator1">&nbsp;</span>
                     <span class="ButtonSeperator2">&nbsp;</span>
                     <span class="Button">
                         <a href="http://www.badmintongear.nl/Free-Shipping-(Holland-only)" >
-                            Bestellen Zonder Verzendkosten
+                            <?php echo HEADER_ORDERWITHOUT; ?>
                         </a>
                     </span>
                     <span class="ButtonSeperator1">&nbsp;</span>
                     <span class="ButtonSeperator2">&nbsp;</span>
                     <span class="Button">
                         <a href="http://www.badmintongear.nl/Webwinkel-Page-117596/Bespan-Service.html" >
-                            Bespan Service
+                            <?php echo HEADER_BESPAN_SERVICE; ?>
                         </a>
                     </span>
                     <span class="ButtonSeperator1">&nbsp;</span>
                     <span class="ButtonSeperator2">&nbsp;</span>
                     <span class="Button">
                         <a href="http://www.badmintongear.nl/Newsletter" >
-                            Nieuwsbrief
+                            <?php echo HEADER_NEWSLETTER; ?>
+
                         </a>
                     </span>
                 </div>

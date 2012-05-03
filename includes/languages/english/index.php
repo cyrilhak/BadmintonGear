@@ -11,7 +11,7 @@
 */
 
 define('TEXT_MAIN', '');
-define('TABLE_HEADING_NEW_PRODUCTS', 'New Products For %s');
+define('TABLE_HEADING_NEW_PRODUCTS', 'NOW NEW IN THIS SHOP:');
 define('TABLE_HEADING_UPCOMING_PRODUCTS', 'Upcoming Products');
 define('TABLE_HEADING_DATE_EXPECTED', 'Date Expected');
 define('HEADING_TITLE', 'Welcome to ' . STORE_NAME);

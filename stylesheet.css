@@ -40,7 +40,6 @@ body {
 
 #bodyContent {
     background-color: #ffffff;
-    border: #000000;
 }
 
 #header {
@@ -85,7 +84,7 @@ body {
 
 .contentContainer h2 {
     font-size: 16px;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: normal;
     margin-bottom: 0;
     padding-bottom: 5px;
@@ -98,13 +97,6 @@ body {
 }
 .contentWindow {
     background-color: white;
-    border: 1px solid #909090;
-    width: 538px;
-    padding-left: 19px !important;
-    padding-right: 19px !important;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
 }
 
 .productListTable {

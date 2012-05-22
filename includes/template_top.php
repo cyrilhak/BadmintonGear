@@ -59,5 +59,5 @@ $.datepicker.setDefaults($.datepicker.regional['<?php echo JQUERY_DATEPICKER_I18
   <!--div class="contentText"--><?php //echo '&nbsp;&nbsp;' . $breadcrumb->trail(' &raquo; '); ?><!--/div-->
 <!--/div-->
     
-<div class="contentText"><!-- </div> in index.php -->
-  <div class="ui-widget-content">
+<div class="contentText"><div class="ui-widget-content"><!-- </div> in index.php, product_info.php -->
+  

@@ -207,10 +207,6 @@ $("#piGal a[rel^='fancybox']").fancybox({
 </div>
 
 </form>
-
-
-</div></div><!-- cyril 20120522 start div template top -->
-
     
 <?php
   }

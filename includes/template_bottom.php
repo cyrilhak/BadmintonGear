@@ -10,6 +10,7 @@
   Released under the GNU General Public License
 */
 ?>
+</div></div><!-- cyril 20120522 start div template top -->
 
 </div> <!-- bodyContent //-->
 

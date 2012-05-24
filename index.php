@@ -266,8 +266,6 @@
 
 </div>
 
-</div></div><!-- cyril 20120522 start div template top -->
-
 <?php
   }
 

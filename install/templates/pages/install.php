@@ -124,15 +124,15 @@
         <td class="inputDescription">The address of the database server in the form of a hostname or IP address.</td>
       </tr>
       <tr>
-        <td class="inputField"><?php echo 'Username<br />' . osc_draw_input_field('DB_SERVER_USERNAME', null, 'class="text"'); ?></td>
+        <td class="inputField"><?php echo 'Username<br />' . osc_draw_input_field('DB_SERVER_USERNAME', 'badmintongear', 'class="text"'); ?></td>
         <td class="inputDescription">The username used to connect to the database server.</td>
       </tr>
       <tr>
-        <td class="inputField"><?php echo 'Password<br />' . osc_draw_password_field('DB_SERVER_PASSWORD', 'class="text"'); ?></td>
+        <td class="inputField"><?php echo 'Password<br />' . osc_draw_password_field('DB_SERVER_PASSWORD', 'badmintongear','class="text"'); ?></td>
         <td class="inputDescription">The password that is used together with the username to connect to the database server.</td>
       </tr>
       <tr>
-        <td class="inputField"><?php echo 'Database Name<br />' . osc_draw_input_field('DB_DATABASE', null, 'class="text"'); ?></td>
+        <td class="inputField"><?php echo 'Database Name<br />' . osc_draw_input_field('DB_DATABASE', 'badmintongear', 'class="text"'); ?></td>
         <td class="inputDescription">The name of the database to hold the data in.</td>
       </tr>
     </table>

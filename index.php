@@ -38,7 +38,6 @@
     $category_query = tep_db_query("select cd.categories_name, c.categories_image from " . TABLE_CATEGORIES . " c, " . TABLE_CATEGORIES_DESCRIPTION . " cd where c.categories_id = '" . (int)$current_category_id . "' and cd.categories_id = '" . (int)$current_category_id . "' and cd.language_id = '" . (int)$languages_id . "'");
     $category = tep_db_fetch_array($category_query);
 ?>
-
 <h1><?php echo $category['categories_name']; ?></h1>
 
 <div class="contentContainer">
@@ -235,7 +234,7 @@
       }
     }
 
-    //include(DIR_WS_MODULES . FILENAME_PRODUCT_LISTING);
+    include(DIR_WS_MODULES . FILENAME_PRODUCT_LISTING);
 ?>
 
 </div>
@@ -245,20 +244,20 @@
 ?>
 
 <div class="contentContainer">
-  <!--div class="contentText"-->
-    <?php //echo tep_customer_greeting(); ?>
-  <!--/div-->
+  <div class="contentText">
+    <?php echo tep_customer_greeting(); ?>
+  </div>
 
 <?php
-    //if (tep_not_null(TEXT_MAIN)) {
+    if (tep_not_null(TEXT_MAIN)) {
 ?>
 
-  <!--div class="contentText"-->
-    <?php //echo TEXT_MAIN; ?>
-  <!--/div-->
+  <div class="contentText">
+    <?php echo TEXT_MAIN; ?>
+  </div>
 
 <?php
-    //}
+    }
 
     include(DIR_WS_MODULES . FILENAME_NEW_PRODUCTS);
     include(DIR_WS_MODULES . FILENAME_UPCOMING_PRODUCTS);

@@ -72,7 +72,7 @@
       if (tep_db_num_rows($pi_query) > 0) {
 ?>
 
-    <div id="piGal">
+    <div id="piGal" style="float: right;">
       <ul>
 
 <?php

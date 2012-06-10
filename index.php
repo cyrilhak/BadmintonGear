@@ -38,9 +38,10 @@
     $category_query = tep_db_query("select cd.categories_name, c.categories_image from " . TABLE_CATEGORIES . " c, " . TABLE_CATEGORIES_DESCRIPTION . " cd where c.categories_id = '" . (int)$current_category_id . "' and cd.categories_id = '" . (int)$current_category_id . "' and cd.language_id = '" . (int)$languages_id . "'");
     $category = tep_db_fetch_array($category_query);
 ?>
-<h1><?php echo $category['categories_name']; ?></h1>
+
 
 <div class="contentContainer">
+<h1><?php echo $category['categories_name']; ?></h1>
   <div class="contentText">
     <table border="0" width="100%" cellspacing="0" cellpadding="2">
       <tr>
@@ -84,7 +85,7 @@
 
     <br />
 
-<?php include(DIR_WS_MODULES . FILENAME_NEW_PRODUCTS); ?>
+<?php //include(DIR_WS_MODULES . FILENAME_NEW_PRODUCTS); ?>
 
   </div>
 </div>
@@ -202,11 +203,8 @@
       $catname = $image['catname'];
     }
 ?>
-
-<h1><?php echo $catname; ?></h1>
-
 <div class="contentContainer">
-
+<h1><?php echo $catname; ?></h1>
 <?php
 // optional Product List Filter
     if (PRODUCT_LIST_FILTER > 0) {
@@ -259,8 +257,8 @@
 <?php
     }
 
-    include(DIR_WS_MODULES . FILENAME_NEW_PRODUCTS);
-    include(DIR_WS_MODULES . FILENAME_UPCOMING_PRODUCTS);
+    //include(DIR_WS_MODULES . FILENAME_NEW_PRODUCTS);
+    //include(DIR_WS_MODULES . FILENAME_UPCOMING_PRODUCTS);
 ?>
 
 </div>

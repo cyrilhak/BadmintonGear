@@ -14,6 +14,13 @@
     background: #000000 url(images/badmintongear/categorie_header.png) 50% 50% repeat-x; 
     color: #ffffff; 
     font-weight: bold; 
+} 
+
+.ui-widget-header-productlisting {
+    border: 1px solid #ffffff; 
+    background: #ffffff; 
+    color: #ffffff; 
+    font-weight: bold; 
 }
 
 .ui-widget {

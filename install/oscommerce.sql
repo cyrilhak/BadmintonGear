@@ -644,80 +644,10 @@ INSERT INTO address_format VALUES (5, '$firstname $lastname$cr$streets$cr$postco
 INSERT INTO banners VALUES (1, 'badmintonGear', 'http://www.badmintongear.nl', 'badmintongear/badmintonGearLogo.png', '468x50', '', 0, null, null, now(), null, 1);
 
 ---INSERT INTO currencies VALUES (1,'U.S. Dollar','USD','$','','.',',','2','1.0000', now());
-INSERT INTO currencies VALUES (1,'Euro','EUR','','€','.',',','2','1.0000', now());
+INSERT INTO currencies VALUES (1,'Euro','EUR','€','',',','.','2','1.0000', now());
 
 INSERT INTO languages VALUES (2,'English','en','icon.gif','english',2); 
 INSERT INTO languages VALUES (1,'Nederlands','nl','icon.gif','dutch',1);
-
--- categories: values = id, plaatje, parent_id, sort_order, date
--- categories_description values = categorie_id, language_id, categorie_name
-
-INSERT INTO categories VALUES ('1','null','0',1,now(),null);
-INSERT INTO categories VALUES ('2','null','0',2,now(),null);
-INSERT INTO categories VALUES ('21','null','1',21,now(),null);
-
-
-INSERT INTO categories_description VALUES ('1','1','Accessoires');
-INSERT INTO categories_description VALUES ('1','2','Accessoires');
-INSERT INTO categories_description VALUES ('21','1','Sub nl');
-INSERT INTO categories_description VALUES ('21','2','sub en');
-INSERT INTO categories_description VALUES ('2','1','Bespannen');
-INSERT INTO categories_description VALUES ('2','2','Bespannen');
---INSERT INTO categories VALUES ('3','null','0',3,now(),null);
---INSERT INTO categories_description VALUES ('3','1','Blesssures');
---INSERT INTO categories_description VALUES ('3','2','Blesssures');
---INSERT INTO categories VALUES ('4','null','0',4,now(),null);
---INSERT INTO categories_description VALUES ('4','1','Club Artikelen');
---INSERT INTO categories_description VALUES ('4','2','Club Artikelen');
---INSERT INTO categories VALUES ('5','null','0',5,now(),null);
---INSERT INTO categories_description VALUES ('5','1','Kleding');
---INSERT INTO categories_description VALUES ('5','2','Kleding');
---INSERT INTO categories VALUES ('6','null','0',6,now(),null);
---INSERT INTO categories_description VALUES ('6','1','Rackets');
---INSERT INTO categories_description VALUES ('6','2','Rackets');
---INSERT INTO categories VALUES ('7','null','0',7,now(),null);
---INSERT INTO categories_description VALUES ('7','1','Roze en Paars Collectie');
---INSERT INTO categories_description VALUES ('7','2','Roze en Paars Collectie');
---INSERT INTO categories VALUES ('8','null','0',8,now(),null);
---INSERT INTO categories_description VALUES ('8','1','Sale & Occasions');
---INSERT INTO categories_description VALUES ('8','2','Sale & Occasions');
---INSERT INTO categories VALUES ('9','null','0',9,now(),null);
---INSERT INTO categories_description VALUES ('9','1','Schoenen');
---INSERT INTO categories_description VALUES ('9','2','Schoenen');
---INSERT INTO categories VALUES ('10','null','0',10,now(),null);
---INSERT INTO categories_description VALUES ('10','1','Shuttles');
---INSERT INTO categories_description VALUES ('10','2','Shuttles');
---INSERT INTO categories VALUES ('11','null','0',11,now(),null);
---INSERT INTO categories_description VALUES ('11','1','Snaren');
---INSERT INTO categories_description VALUES ('11','2','Snaren');
---INSERT INTO categories VALUES ('12','null','0',12,now(),null);
---INSERT INTO categories_description VALUES ('12','1','Sportvoeding');
---INSERT INTO categories_description VALUES ('12','2','Sportvoeding');
---INSERT INTO categories VALUES ('13','null','0',13,now(),null);
---INSERT INTO categories_description VALUES ('13','1','Tassen');
---INSERT INTO categories_description VALUES ('13','2','Tassen');
---INSERT INTO categories VALUES ('14','null','0',14,now(),null);
---INSERT INTO categories_description VALUES ('14','1','Teamkleding');
---INSERT INTO categories_description VALUES ('14','2','Teamkleding');
---INSERT INTO categories VALUES ('15','null','0',15,now(),null);
---INSERT INTO categories_description VALUES ('15','1','Verenigingsmateriaal');
---INSERT INTO categories_description VALUES ('15','2','Verenigingsmateriaal');
---INSERT INTO categories VALUES ('16','null','0',16,now(),null);
---INSERT INTO categories_description VALUES ('16','1','Golf');
---INSERT INTO categories_description VALUES ('16','2','Golf');
---INSERT INTO categories VALUES ('17','null','0',17,now(),null);
---INSERT INTO categories_description VALUES ('17','1','Honkbal');
---INSERT INTO categories_description VALUES ('17','2','Honkbal');
---INSERT INTO categories VALUES ('18','null','0',18,now(),null);
---INSERT INTO categories_description VALUES ('18','1','Squash');
---INSERT INTO categories_description VALUES ('18','2','Squash');
---INSERT INTO categories VALUES ('19','null','0',19,now(),null);
---INSERT INTO categories_description VALUES ('19','1','Streethockey');
---INSERT INTO categories_description VALUES ('19','2','Streethockey');
---INSERT INTO categories VALUES ('20','null','0',20,now(),null);
---INSERT INTO categories_description VALUES ('20','1','Tennis');
---INSERT INTO categories_description VALUES ('20','2','Tennis');
-
 
 INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) VALUES ('Store Name', 'STORE_NAME', 'osCommerce', 'The name of my store', '1', '1', now());
 INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) VALUES ('Store Owner', 'STORE_OWNER', 'Harald Ponce de Leon', 'The name of my store owner', '1', '2', now());
@@ -1169,7 +1099,10 @@ INSERT INTO orders_status VALUES ( '2', '1', 'Processing', '1', '1');
 INSERT INTO orders_status VALUES ( '3', '1', 'Delivered', '1', '1');
 
 -- products: product_id, product_quantity, product_model, image, price, date_added, date_modified, date_available, weight, status, tax_class_id, manufact_if, ordered
-INSERT INTO products VALUES (,32,'MG200MMS','matrox/mg200mms.gif',299.99, now(),null,null,23.00,1,1,1,0);
+INSERT INTO products VALUES (1,2,'Polo 1123 Red mt M','yonex/Yonex_Polo_Men_1123_Red.jpg',34.95, now(),null,null,0,1,1,1,0);
+-- products_descrition product_id, language_id, prod_name, prod_descr, url, viewed
+INSERT INTO products_description VALUES (1,1,'Polo Men','beschrijving...',null,0);
+INSERT INTO products_description VALUES (1,2,'Polo Men','beschrijving...',null,0);
 
 --INSERT INTO products_description VALUES (1,1,'Matrox G200 MMS','Reinforcing its position as a multi-monitor trailblazer, Matrox Graphics Inc. has once again developed the most flexible and highly advanced solution in the industry. Introducing the new Matrox G200 Multi-Monitor Series; the first graphics card ever to support up to four DVI digital flat panel displays on a single 8&quot; PCI board.<br /><br />With continuing demand for digital flat panels in the financial workplace, the Matrox G200 MMS is the ultimate in flexible solutions. The Matrox G200 MMS also supports the new digital video interface (DVI) created by the Digital Display Working Group (DDWG) designed to ease the adoption of digital flat panels. Other configurations include composite video capture ability and onboard TV tuner, making the Matrox G200 MMS the complete solution for business needs.<br /><br />Based on the award-winning MGA-G200 graphics chip, the Matrox G200 Multi-Monitor Series provides superior 2D/3D graphics acceleration to meet the demanding needs of business applications such as real-time stock quotes (Versus), live video feeds (Reuters &amp; Bloombergs), multiple windows applications, word processing, spreadsheets and CAD.','www.matrox.com/mga/products/g200_mms/home.cfm',0);
 
@@ -1182,37 +1115,20 @@ INSERT INTO products VALUES (,32,'MG200MMS','matrox/mg200mms.gif',299.99, now(),
 --INSERT INTO products_images VALUES (3,28,'samsung/galaxy_tab_3.jpg',null,3);
 --INSERT INTO products_images VALUES (4,28,'samsung/galaxy_tab_4.jpg','<object type="application/x-shockwave-flash" width="640" height="385" data="http://www.youtube.com/v/tAbsmHMAhrQ?fs=1&amp;autoplay=1"><param name="movie" value="http://www.youtube.com/v/tAbsmHMAhrQ?fs=1&amp;autoplay=1" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="wmode" value="transparent" /></object>',4);
 
---INSERT INTO products_options VALUES (1,1,'Color');
---INSERT INTO products_options VALUES (2,1,'Size');
---INSERT INTO products_options VALUES (3,1,'Model');
---INSERT INTO products_options VALUES (4,1,'Memory');
---INSERT INTO products_options VALUES (5, 1, 'Version');
+INSERT INTO products_options VALUES (1,1,'Kleur');
+INSERT INTO products_options VALUES (1,2,'Color');
 
---INSERT INTO products_options_values VALUES (1,1,'4 mb');
---INSERT INTO products_options_values VALUES (2,1,'8 mb');
---INSERT INTO products_options_values VALUES (3,1,'16 mb');
---INSERT INTO products_options_values VALUES (4,1,'32 mb');
---INSERT INTO products_options_values VALUES (5,1,'Value');
---INSERT INTO products_options_values VALUES (6,1,'Premium');
---INSERT INTO products_options_values VALUES (7,1,'Deluxe');
---INSERT INTO products_options_values VALUES (8,1,'PS/2');
---INSERT INTO products_options_values VALUES (9,1,'USB');
---INSERT INTO products_options_values VALUES (10, 1, 'Download: Windows - English');
---INSERT INTO products_options_values VALUES (13, 1, 'Box: Windows - English');
+INSERT INTO products_options_values VALUES (1,1,'rood');
+INSERT INTO products_options_values VALUES (2,2,'red');
+INSERT INTO products_options_values VALUES (3,1,'zwart');
+INSERT INTO products_options_values VALUES (4,2,'black');
 
---INSERT INTO products_options_values_to_products_options VALUES (1,4,1);
---INSERT INTO products_options_values_to_products_options VALUES (2,4,2);
---INSERT INTO products_options_values_to_products_options VALUES (3,4,3);
---INSERT INTO products_options_values_to_products_options VALUES (4,4,4);
---INSERT INTO products_options_values_to_products_options VALUES (5,3,5);
---INSERT INTO products_options_values_to_products_options VALUES (6,3,6);
---INSERT INTO products_options_values_to_products_options VALUES (7,3,7);
---INSERT INTO products_options_values_to_products_options VALUES (8,3,8);
---INSERT INTO products_options_values_to_products_options VALUES (9,3,9);
---INSERT INTO products_options_values_to_products_options VALUES (10, 5, 10);
---INSERT INTO products_options_values_to_products_options VALUES (13, 5, 13);
+INSERT INTO products_options_values_to_products_options VALUES (1,1,1);
+INSERT INTO products_options_values_to_products_options VALUES (2,1,2);
+INSERT INTO products_options_values_to_products_options VALUES (3,1,1);
+INSERT INTO products_options_values_to_products_options VALUES (3,1,2);
 
---INSERT INTO products_to_categories VALUES (1,4);
+INSERT INTO products_to_categories VALUES (1,1);
 
 --INSERT INTO reviews VALUES (1,19,0,'John Doe',5,now(),null,1,0);
 
@@ -1236,10 +1152,10 @@ INSERT INTO sec_directory_whitelist values (null, 'pub');
 --INSERT INTO specials VALUES (3,6, 30.00, now(), null, null, null, '1');
 --INSERT INTO specials VALUES (4,16, 29.99, now(), null, null, null, '1');
 
---INSERT INTO tax_class VALUES (1, 'Taxable Goods', 'The following types of products are included non-food, services, etc', now(), now());
+INSERT INTO tax_class VALUES (1, 'BTW', 'Belasting toegevoegde waarde', null, now());
 
 # USA/Florida
---INSERT INTO tax_rates VALUES (1, 1, 1, 1, 7.0, 'FL TAX 7.0%', now(), now());
+INSERT INTO tax_rates VALUES (1, 1, 1, 1, 7.0, 'FL TAX 19.0%', now(), now());
 --INSERT INTO geo_zones (geo_zone_id,geo_zone_name,geo_zone_description,date_added) VALUES (1,"Florida","Florida local sales tax zone",now());
 --INSERT INTO zones_to_geo_zones (association_id,zone_country_id,zone_id,geo_zone_id,date_added) VALUES (1,223,18,1,now());
 
@@ -1435,6 +1351,9 @@ INSERT INTO zones (zone_country_id, zone_code, zone_name) VALUES (195,'Valladoli
 INSERT INTO zones (zone_country_id, zone_code, zone_name) VALUES (195,'Vizcaya','Vizcaya');
 INSERT INTO zones (zone_country_id, zone_code, zone_name) VALUES (195,'Zamora','Zamora');
 INSERT INTO zones (zone_country_id, zone_code, zone_name) VALUES (195,'Zaragoza','Zaragoza');
+INSERT INTO zones VALUES (200,150,'NL','Nederland');
+INSERT INTO geo_zones VALUES (1, 'NL', 'Nederland', null, now());
+INSERT INTO tax_rates VALUES (1,1,1,1,19,'Belasting toegevoegde waarde',null,now());
 
 # PayPal Express
 INSERT INTO orders_status (orders_status_id, language_id, orders_status_name, public_flag, downloads_flag) values ('4', '1', 'PayPal [Transactions]', 0, 0);

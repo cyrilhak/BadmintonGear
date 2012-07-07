@@ -1,0 +1,107 @@
+<?php
+/*
+  $Id$
+
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+
+  Copyright (c) 2010 osCommerce
+
+  Released under the GNU General Public License
+*/
+
+  require('includes/application_top.php');
+
+  require(DIR_WS_LANGUAGES . $language . '/' . FILENAME_PRODUCT_INFO);
+
+  $product_check_query = tep_db_query("select count(*) as total from " . TABLE_PRODUCTS . " p, " . TABLE_PRODUCTS_DESCRIPTION . " pd where p.products_status = '1' and p.products_id = '" . (int)$HTTP_GET_VARS['products_id'] . "' and pd.products_id = p.products_id and pd.language_id = '" . (int)$languages_id . "'");
+  $product_check = tep_db_fetch_array($product_check_query);
+
+  require(DIR_WS_INCLUDES . 'template_top.php');
+
+  if ($product_check['total'] < 1) {
+?>
+
+<div class="contentContainer">
+  <div class="contentText">
+    <?php echo TEXT_PRODUCT_NOT_FOUND; ?>
+  </div>
+
+  <div style="float: right;">
+    <?php echo tep_draw_button(IMAGE_BUTTON_CONTINUE, 'triangle-1-e', tep_href_link(FILENAME_DEFAULT)); ?>
+  </div>
+</div>
+
+<?php
+  } else {
+    $product_info_query = tep_db_query("select p.products_id, pd.products_name, pd.products_description, p.products_model, p.products_quantity, p.products_image, pd.products_url, p.products_price, p.products_tax_class_id, p.products_date_added, p.products_date_available, p.manufacturers_id from " . TABLE_PRODUCTS . " p, " . TABLE_PRODUCTS_DESCRIPTION . " pd where p.products_status = '1' and p.products_id = '" . (int)$HTTP_GET_VARS['products_id'] . "' and pd.products_id = p.products_id and pd.language_id = '" . (int)$languages_id . "'");
+    $product_info = tep_db_fetch_array($product_info_query);
+
+    tep_db_query("update " . TABLE_PRODUCTS_DESCRIPTION . " set products_viewed = products_viewed+1 where products_id = '" . (int)$HTTP_GET_VARS['products_id'] . "' and language_id = '" . (int)$languages_id . "'");
+
+    if ($new_price = tep_get_products_special_price($product_info['products_id'])) {
+      $products_price = '<del>' . $currencies->display_price($product_info['products_price'], tep_get_tax_rate($product_info['products_tax_class_id'])) . '</del> <span class="productSpecialPrice">' . $currencies->display_price($new_price, tep_get_tax_rate($product_info['products_tax_class_id'])) . '</span>';
+    } else {
+      $products_price = $currencies->display_price($product_info['products_price'], tep_get_tax_rate($product_info['products_tax_class_id']));
+    }
+
+    if (tep_not_null($product_info['products_model'])) {
+      $products_name = $product_info['products_name'] . '<br /><span class="smallText">[' . $product_info['products_model'] . ']</span>';
+    } else {
+      $products_name = $product_info['products_name'];
+    }
+?>
+
+<?php echo tep_draw_form('cart_quantity', tep_href_link(FILENAME_PRODUCT_INFO, tep_get_all_get_params(array('action')) . 'action=add_product')); ?>
+
+<div class="contentContainer">
+  <h1 style="float: left;"><?php echo $products_name; ?></h1>
+  <h1 style="float: right;"><?php echo $products_price; ?></h1>
+</div>
+
+<!-- ##########################################START ITEM -->
+<div class="contentContainer1">
+  <div class="contentText2" style="float: left; border:solid red; float: left">
+
+  
+<!-- begin plaatje -->
+<div style="float: left; border:solid red">
+Hallo
+</div>
+<!-- eind plaatje -->
+
+<!-- beschrijving -->
+<div style="float: right;  border:solid red;">
+Hallo
+</div>
+<!--einde beschrijving -->
+  </div>
+<?php
+    $reviews_query = tep_db_query("select count(*) as count from " . TABLE_REVIEWS . " where products_id = '" . (int)$HTTP_GET_VARS['products_id'] . "' and reviews_status = 1");
+    $reviews = tep_db_fetch_array($reviews_query);
+?>
+
+  <div class="buttonSet">
+    <span class="buttonAction">
+        <?php //echo tep_draw_button(IMAGE_BUTTON_REVIEWS . (($reviews['count'] > 0) ? ' (' . $reviews['count'] . ')' : ''), 'comment', tep_href_link(FILENAME_PRODUCT_REVIEWS, tep_get_all_get_params())); ?></span>
+        <?php echo tep_draw_hidden_field('products_id', $product_info['products_id']) . tep_draw_button(IMAGE_BUTTON_IN_CART, 'cart', null, 'primary'); ?>
+  </div>
+
+<?php
+    if ((USE_CACHE == 'true') && empty($SID)) {
+      echo tep_cache_also_purchased(3600);
+    } else {
+      include(DIR_WS_MODULES . FILENAME_ALSO_PURCHASED_PRODUCTS);
+    }
+?>
+
+</div>
+
+</form>
+    
+<?php
+  }
+
+  require(DIR_WS_INCLUDES . 'template_bottom.php');
+  require(DIR_WS_INCLUDES . 'application_bottom.php');
+?>

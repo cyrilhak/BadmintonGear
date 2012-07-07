@@ -44,20 +44,32 @@ $.datepicker.setDefaults($.datepicker.regional['<?php echo JQUERY_DATEPICKER_I18
 <script type="text/javascript" src="ext/jquery/bxGallery/jquery.bxGallery.1.1.min.js"></script>
 <link rel="stylesheet" type="text/css" href="ext/jquery/fancybox/jquery.fancybox-1.3.4.css" />
 <script type="text/javascript" src="ext/jquery/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-<link rel="stylesheet" type="text/css" href="ext/960gs/<?php echo ((stripos(HTML_PARAMS, 'dir="rtl"') !== false) ? 'rtl_' : ''); ?>960_24_col.css" />
 <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+<link rel="stylesheet" href="ext/960gs/978.css" />
 <?php echo $oscTemplate->getBlocks('header_tags'); ?>
 </head>
 <body>
 
-<div id="bodyWrapper" class="container_<?php echo $oscTemplate->getGridContainerWidth(); ?>">
+
+<div class="layout-978">
 
 <?php require(DIR_WS_INCLUDES . 'header.php'); ?>
+<div class="row">
+    <div class="col12" style="background-color: #2b2f38;">&nbsp;</div>
+</div>
 
-<div id="bodyContent" class="grid_<?php echo $oscTemplate->getGridContentWidth(); ?> <?php echo ($oscTemplate->hasBlocks('boxes_column_left') ? 'push_' . $oscTemplate->getGridColumnWidth() : ''); ?>">
-<!--div class="contentText"-->
-  <!--div class="contentText"--><?php //echo '&nbsp;&nbsp;' . $breadcrumb->trail(' &raquo; '); ?><!--/div-->
-<!--/div-->
-    
-<div class="contentText"><div class="ui-widget-content"><!-- </div> in index.php, product_info.php -->
+<div class="row">            
+<?php
+  if ($oscTemplate->hasBlocks('boxes_column_left')) {
+?>
+<div class="col3">
+  <?php echo $oscTemplate->getBlocks('boxes_column_left'); ?>
+</div>
+
+<?php
+  }
+?>
+<div class="col6">
+
+
   

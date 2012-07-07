@@ -1,13 +1,78 @@
-/*
-  $Id$
+/* The following styles are to visualize how the demo code works. Do not include this in your code.  */
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+body { margin: 0px; 
+       height: 100%;
+       background-size: 100%;
+       background-color:#2b2f38;
+       padding: 0px;  font: 11px/12px "Lucida Sans Unicode", "Lucida Grande", "sans-serif"; color: #000; }
+div.col1, div.col2, div.col3, div.col4, div.col5, div.col6, div.col7, div.col8, div.col9, div.col10, div.col11, div.col12 { background: #ffffff; padding: 0px 0px; }
+div.row:last-child { margin-top: 0px; padding: 0px 0px; background: #ffffff; }
 
-  Copyright (c) 2010 osCommerce
+/* green buttonbar */
+#ButtonBar {
+    clear: both;
+    width: 100%;
 
-  Released under the GNU General Public License
-*/
+    font-size: 12px;	
+    text-align: center;		
+}
+#ButtonBar a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;	
+}
+
+#ButtonBarContent {
+   background-image: url(http://localhost/badmintongear/images/badmintongear/LimeButtonBar.jpg);
+    margin: auto;
+    padding-left: 48px;
+    width: 980px;
+    width:930px;
+    text-align: left;
+}
+
+.ButtonBar a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;	
+}
+
+.ButtonBarContent {
+    background-image: url(http://localhost/badmintongear/images/badmintongear/LimeButtonBar.jpg);
+    margin: auto;
+    padding-left: 48px;
+    width: 980px;
+    width:930px;
+    text-align: left;
+}
+
+.Button {
+
+    margin-bottom: 11px;
+    display: inline-block;
+    height: 16px;
+    margin-top: 9px;
+    margin-right: 5px;
+}
+
+#ButtonBar .ButtonSelected {
+    color: #124E1C;
+}
+
+.ButtonSeperator1 {
+    margin-top: 8px;
+    margin-bottom: 11px;
+    width: 1px;
+    display: inline-block;
+    border-right: 1px solid #FFFFFF;
+}
+
+.ButtonSeperator2 {
+    display: inline-block;
+    width: 1px;
+}
 
 .ui-widget-header { 
     border: 1px solid #374f71; 
@@ -27,51 +92,6 @@
     font-family: Lucida Grande, Lucida Sans, Verdana, Arial, sans-serif;
     font-size: 11px;
 }
-
-body {
-    background: #fff;
-    background-color: #ffffff;
-    background-image: url(images/badmintongear/BackgroundStipShadowBlack.jpg);
-    background-attachment: fixed;
-    background-repeat: repeat;
-    background-position: top center;
-    color: #000;
-    margin: 0px;
-    font-size: 11px;
-    font-family: Lucida Grande, Lucida Sans, Verdana, Arial, sans-serif;
-}
-
-#bodyWrapper {
-    background-color: #000000;
-}
-
-#bodyContent {
-    background-color: #ffffff;
-}
-
-#header {
-    //height: 60px;
-    background-color: #000000;
-}
-
-#storeLogo {
-    float: left;
-    margin-top: 5px;
-}
-
-#headerShortcuts {
-    float: right;
-    margin-top: 15px;
-}
-
-#columnLeft {
-    padding-top: 5px;
-}
-
-#columnRight {
-    padding-top: 5px;
-}
-
 .infoBoxContainer { }
 
 .infoBoxHeading {
@@ -149,6 +169,7 @@ table, p {
 
 #piGal ul {
     list-style-type: none;
+    width: 10px;
 }
 
 #piGal img {
@@ -160,6 +181,14 @@ table, p {
 
 #piGal .outer {
     margin-left: -30px;
+}
+
+.priceBox {
+    border: 1px solid #000000;
+    width: 100px;
+    position: inherit;
+    left: 300px;
+    top: 1px;
 }
 
 .buttonSet {
@@ -446,56 +475,31 @@ SPAN.errorText {
     margin-right: 5px;
 }
 
-
-/* green buttonbar */
-#ButtonBar {
-
-
-
-    clear: both;
+.table_container {
     width: 100%;
-
-    font-size: 12px;	
-    text-align: center;		
-}
-#ButtonBar a {
-    color: #000000;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 12px;	
-}
-
-#ButtonBarContent {
-    background-image: url(images/badmintongear/LimeButtonBar.jpg);
     margin: auto;
-    padding-left: 20px;
-    width: 980px;
-    width:930px;
-    text-align: left;
+    padding:0;
+    display: table;
+    border: 0px;
 }
 
-.Button {
-
-    margin-bottom: 11px;
-    display: inline-block;
-    height: 16px;
-    margin-top: 9px;
-    margin-right: 5px;
+.table_row  {
+    display: table-row;
 }
 
-#ButtonBar .ButtonSelected {
-    color: #124E1C;
+.table_column {
+    width:150px;
+    padding:1em;
+    background: #FFF;
+    display: table-cell;
 }
 
-.ButtonSeperator1 {
-    margin-top: 8px;
-    margin-bottom: 11px;
-    width: 1px;
-    display: inline-block;
-    border-right: 1px solid #FFFFFF;
+.price {
+    width:150px;
+    padding:1em;
+    background:#FFF;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
 
-.ButtonSeperator2 {
-    display: inline-block;
-    width: 1px;
-}

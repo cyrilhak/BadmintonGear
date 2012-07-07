@@ -40,9 +40,8 @@
 ?>
 
 
-<div class="contentContainer">
+
 <h1><?php echo $category['categories_name']; ?></h1>
-  <div class="contentText">
     <table border="0" width="100%" cellspacing="0" cellpadding="2">
       <tr>
 <?php
@@ -86,9 +85,6 @@
     <br />
 
 <?php //include(DIR_WS_MODULES . FILENAME_NEW_PRODUCTS); ?>
-
-  </div>
-</div>
 
 <?php
   } elseif ($category_depth == 'products' || isset($HTTP_GET_VARS['manufacturers_id'])) {
@@ -203,7 +199,6 @@
       $catname = $image['catname'];
     }
 ?>
-<div class="contentContainer">
 <h1><?php echo $catname; ?></h1>
 <?php
 // optional Product List Filter
@@ -234,35 +229,29 @@
 
     include(DIR_WS_MODULES . FILENAME_PRODUCT_LISTING);
 ?>
-
-</div>
-
 <?php
-  } else { // default page
+  } else { // default paged
 ?>
-
-<div class="contentContainer">
-  <div class="contentText">
+<div class="infoBoxContents">
+  <p>  
     <?php echo tep_customer_greeting(); ?>
-  </div>
+  </p>
 
 <?php
     if (tep_not_null(TEXT_MAIN)) {
 ?>
-
-  <div class="contentText">
+<p>
+  
     <?php echo TEXT_MAIN; ?>
-  </div>
-
+ 
+</p>
 <?php
     }
 
     //include(DIR_WS_MODULES . FILENAME_NEW_PRODUCTS);
     //include(DIR_WS_MODULES . FILENAME_UPCOMING_PRODUCTS);
 ?>
-
 </div>
-
 <?php
   }
 

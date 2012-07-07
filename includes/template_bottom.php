@@ -10,37 +10,33 @@
   Released under the GNU General Public License
 */
 ?>
-</div></div><!-- cyril 20120522 start div template top -->
 
-</div> <!-- bodyContent //-->
-
-<?php
-  if ($oscTemplate->hasBlocks('boxes_column_left')) {
-?>
-
-<div id="columnLeft" class="grid_<?php echo $oscTemplate->getGridColumnWidth(); ?> pull_<?php echo $oscTemplate->getGridContentWidth(); ?>">
-  <?php echo $oscTemplate->getBlocks('boxes_column_left'); ?>
 </div>
 
-<?php
-  }
 
+<?php
   if ($oscTemplate->hasBlocks('boxes_column_right')) {
 ?>
 
-<div id="columnRight" class="grid_<?php echo $oscTemplate->getGridColumnWidth(); ?>">
+<div class="col3">
   <?php echo $oscTemplate->getBlocks('boxes_column_right'); ?>
 </div>
 
 <?php
   }
 ?>
-
-<?php require(DIR_WS_INCLUDES . 'footer.php'); ?>
-
+<div class="row">
+    <div class="col12" style="background-color: #2b2f38;">&nbsp;</div>
+</div>
+<div class="row">
+    <div class="col12" style="background-color: #2b2f38; color: #FFFFFF; ">
+        <?php require(DIR_WS_INCLUDES . 'footer.php'); ?>
+    </div>
+</div>
 </div> <!-- bodyWrapper //-->
 
 <?php echo $oscTemplate->getBlocks('footer_scripts'); ?>
+</div>
 
 </body>
 </html>

@@ -70,6 +70,9 @@ $.datepicker.setDefaults($.datepicker.regional['<?php echo JQUERY_DATEPICKER_I18
   }
 ?>
 <div class="col6">
+  
+  <div class=""><?php echo '&nbsp;&nbsp;' . $breadcrumb->trail(' &raquo; '); ?></div>
+
 
 
   

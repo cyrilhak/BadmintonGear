@@ -19,18 +19,21 @@
 
   require(DIR_WS_INCLUDES . 'template_top.php');
 
-  if ($product_check['total'] < 1) {
+  if ($product_check['total'] > 1) {
+  
 ?>
-
-<div class="contentContainer">
-  <div class="contentText">
-    <?php echo TEXT_PRODUCT_NOT_FOUND; ?>
-  </div>
-
-  <div style="float: right;">
-    <?php echo tep_draw_button(IMAGE_BUTTON_CONTINUE, 'triangle-1-e', tep_href_link(FILENAME_DEFAULT)); ?>
-  </div>
-</div>
+    <div class="table_container">
+        <div class="table_row">
+            <div class="table_column"><h2><?php echo TEXT_PRODUCT_NOT_FOUND; ?></h2></div>
+        </div>
+        <div class="table_row">
+            <div class="table_column">
+                <div class="buttonSet">
+                    <span class="buttonAction"><?php echo tep_draw_button(IMAGE_BUTTON_CONTINUE, 'triangle-1-e', tep_href_link(FILENAME_DEFAULT)); ?></span>
+                </div>
+            </div>
+         </div>
+    </div>
 
 <?php
   } else {
@@ -52,7 +55,7 @@
     }
 ?>
 
-<?php //echo tep_draw_form('cart_quantity', tep_href_link(FILENAME_PRODUCT_INFO, tep_get_all_get_params(array('action')) . 'action=add_product')); ?>
+<?php echo tep_draw_form('cart_quantity', tep_href_link(FILENAME_PRODUCT_INFO, tep_get_all_get_params(array('action')) . 'action=add_product')); ?>
 
 <div class="table_container">
     <div class="table_row">
@@ -128,7 +131,7 @@
                                 }
                             ?>
 
-                            <!-- eind plaatje -->
+                            <!-- eind plaatje  -->
                         </div>
                     </div>
                     <div class="price">
@@ -143,8 +146,57 @@
            <?php echo stripslashes($product_info['products_description']); ?> 
         </div>
     </div>
-</div>
+    <div class="table_row">
+        <div class="table_column">
+           <!-- begin attributen -->
+            <?php
+                $products_attributes_query = tep_db_query("select count(*) as total from " . TABLE_PRODUCTS_OPTIONS . " popt, " . TABLE_PRODUCTS_ATTRIBUTES . " patrib where patrib.products_id='" . (int)$HTTP_GET_VARS['products_id'] . "' and patrib.options_id = popt.products_options_id and popt.language_id = '" . (int)$languages_id . "'");
+                $products_attributes = tep_db_fetch_array($products_attributes_query);
+                if ($products_attributes['total'] > 0) {
+            ?>
 
+                <p><?php echo TEXT_PRODUCT_OPTIONS; ?></p>
+
+                <p>
+            <?php
+                $products_options_name_query = tep_db_query("select distinct popt.products_options_id, popt.products_options_name from " . TABLE_PRODUCTS_OPTIONS . " popt, " . TABLE_PRODUCTS_ATTRIBUTES . " patrib where patrib.products_id='" . (int)$HTTP_GET_VARS['products_id'] . "' and patrib.options_id = popt.products_options_id and popt.language_id = '" . (int)$languages_id . "' order by popt.products_options_name");
+                while ($products_options_name = tep_db_fetch_array($products_options_name_query)) {
+                    $products_options_array = array();
+                    $products_options_query = tep_db_query("select pov.products_options_values_id, pov.products_options_values_name, pa.options_values_price, pa.price_prefix from " . TABLE_PRODUCTS_ATTRIBUTES . " pa, " . TABLE_PRODUCTS_OPTIONS_VALUES . " pov where pa.products_id = '" . (int)$HTTP_GET_VARS['products_id'] . "' and pa.options_id = '" . (int)$products_options_name['products_options_id'] . "' and pa.options_values_id = pov.products_options_values_id and pov.language_id = '" . (int)$languages_id . "'");
+                    while ($products_options = tep_db_fetch_array($products_options_query)) {
+                    $products_options_array[] = array('id' => $products_options['products_options_values_id'], 'text' => $products_options['products_options_values_name']);
+                    if ($products_options['options_values_price'] != '0') {
+                        $products_options_array[sizeof($products_options_array)-1]['text'] .= ' (' . $products_options['price_prefix'] . $currencies->display_price($products_options['options_values_price'], tep_get_tax_rate($product_info['products_tax_class_id'])) .') ';
+                    }
+                    }
+
+                    if (is_string($HTTP_GET_VARS['products_id']) && isset($cart->contents[$HTTP_GET_VARS['products_id']]['attributes'][$products_options_name['products_options_id']])) {
+                    $selected_attribute = $cart->contents[$HTTP_GET_VARS['products_id']]['attributes'][$products_options_name['products_options_id']];
+                    } else {
+                    $selected_attribute = false;
+                    }
+            ?>
+                <strong><?php echo $products_options_name['products_options_name'] . ':'; ?></strong> <?php echo tep_draw_pull_down_menu('id[' . $products_options_name['products_options_id'] . ']', $products_options_array, $selected_attribute); ?><br />
+            <?php
+                }
+            ?>
+                </p>
+
+            <?php
+                }
+            ?>
+            <!-- einde attributen -->
+        </div>
+    </div>
+    <div class="table_row">
+        <div class="table_column">
+            <div class="buttonSet">
+                <span class="buttonAction"><?php echo tep_draw_hidden_field('products_id', $product_info['products_id']) . tep_draw_button(IMAGE_BUTTON_IN_CART, 'cart', null, 'primary'); ?></span>
+            </div>
+        </div>
+    </div>
+</div>
+</form>
 <?php
   }
  

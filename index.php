@@ -39,9 +39,11 @@
     $category = tep_db_fetch_array($category_query);
 ?>
 
-
-
-<h1><?php echo $category['categories_name']; ?></h1>
+    <div class="table_container">
+        <div class="table_row">
+            <div class="table_column"><h1><?php echo $category['categories_name']; ?></h1></div>
+        </div>
+    </div>
     <table border="0" width="100%" cellspacing="0" cellpadding="2">
       <tr>
 <?php
@@ -230,21 +232,20 @@
     include(DIR_WS_MODULES . FILENAME_PRODUCT_LISTING);
 ?>
 <?php
-  } else { // default paged
+  } else { // default paged 
 ?>
-<div class="infoBoxContents">
-  <p>  
-    <?php echo tep_customer_greeting(); ?>
-  </p>
-
+    <div class="table_container">
+        <div class="table_row">
+            <div class="table_column"><p><?php echo tep_customer_greeting(); ?></p></div>
+        </div>
 <?php
     if (tep_not_null(TEXT_MAIN)) {
 ?>
-<p>
-  
-    <?php echo TEXT_MAIN; ?>
- 
-</p>
+        <div class="table_row">
+            <div class="table_column">
+                <p><?php echo TEXT_MAIN; ?></p>
+            </div>
+        </div>
 <?php
     }
 

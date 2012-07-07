@@ -85,6 +85,8 @@ $("#piGal a[rel^='fancybox']").fancybox({
 <div  class="contentText22">
 <?php echo stripslashes($product_info['products_description']); ?>
 </div>
+
+<!-- begin attributen -->
 <?php
     $products_attributes_query = tep_db_query("select count(*) as total from " . TABLE_PRODUCTS_OPTIONS . " popt, " . TABLE_PRODUCTS_ATTRIBUTES . " patrib where patrib.products_id='" . (int)$HTTP_GET_VARS['products_id'] . "' and patrib.options_id = popt.products_options_id and popt.language_id = '" . (int)$languages_id . "'");
     $products_attributes = tep_db_fetch_array($products_attributes_query);
@@ -121,7 +123,7 @@ $("#piGal a[rel^='fancybox']").fancybox({
 <?php
     }
 ?>
-
+<!-- einde attributen -->
     <div style="clear: both;"></div>
 
 <?php

@@ -132,19 +132,19 @@ INSERT INTO products_description VALUES (3,2,'Yonex ArcSaber 8DX','beschrijving.
 INSERT INTO products_images VALUES (3,3,'yonex/image000.jpg',null,1);
 INSERT INTO products_to_categories VALUES (3,6);
 
-INSERT INTO products VALUES (4,10,'Short 4111 mt S','yonex/image003_thumb.jpg',95.00, now(),null,now(),0,1,1,7,0);
+INSERT INTO products VALUES (4,10,'Short 4111','yonex/image003_thumb.jpg',95.00, now(),null,now(),0,1,1,7,0);
 INSERT INTO products_description VALUES (4,1,'Yonex Short Men 4111 Black','beschrijving...<br/>regel 2....',null,0);
 INSERT INTO products_description VALUES (4,2,'Yonex Short Men 4111 Black','beschrijving...',null,0);
 INSERT INTO products_images VALUES (4,4,'yonex/image003.jpg',null,1);
 INSERT INTO products_to_categories VALUES (4,26);
 
-INSERT INTO products VALUES (5,10,'SHB-102 MX mt 43','yonex/image002_thumb.jpg',95.00, now(),null,now(),0,1,1,7,0);
+INSERT INTO products VALUES (5,10,'SHB-102 MX','yonex/image002_thumb.jpg',95.00, now(),null,now(),0,1,1,7,0);
 INSERT INTO products_description VALUES (5,1,'Yonex SHB-102 MX','beschrijving...<br/>regel 2....',null,0);
 INSERT INTO products_description VALUES (5,2,'Yonex SHB-102 MX','beschrijving...',null,0);
 INSERT INTO products_images VALUES (5,5,'yonex/image002.jpg',null,1);
 INSERT INTO products_to_categories VALUES (5,9);
 
--- INSERT INTO products_attributes VALUES (1,1,4,1,0.00,'+');
+-- INSERT INTO products_attributes VALU ES (1,1,4,1,0.00,'+');
 
 -- INSERT INTO products_attributes_download VALUES (26, 'unreal.zip', 7, 3);
 
